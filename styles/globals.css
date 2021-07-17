@@ -14,3 +14,68 @@ a {
 * {
   box-sizing: border-box;
 }
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 13px;
+}
+header {
+  background-color: #c4c4c4;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+button {
+  background-color: #0a5989;
+  border: none;
+  padding: 1rem 1.5rem;
+  color: white;
+}
+.header-text-body {
+  max-width: 500px;
+  padding: 2rem;
+  color: white;
+}
+.header-text-body p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  max-width: 400px;
+}
+.discover {
+  background-image: url("../public/images/discover.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  color: white;
+  padding: 15rem 1rem 0rem 1rem;
+}
+.discover .item {
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 1rem;
+}
+.discover .item:last-child {
+  border-right: none;
+}
+.discover .item h4 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+.discover .item li {
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.discover .item img {
+  margin-top: 0.5rem !important;
+}
