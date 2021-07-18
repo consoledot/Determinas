@@ -1,14 +1,20 @@
 import Image from "next/image";
+import Link from "next/link";
 import logo from "../../public/images/logo.svg";
 import styles from "./index.module.css";
 
 export default function Navigation() {
   return (
     <nav className={styles.nav}>
-      <Image src={logo} />
+      <Link href="/">
+        <Image src={logo} />
+      </Link>
+
       <ul>
         <li>
-          <a>SERVICES</a>
+          <Link href="/services">
+            <a>SERVICES</a>
+          </Link>
         </li>
         <li>
           <a>INDUSTRIES</a>
@@ -26,7 +32,9 @@ export default function Navigation() {
           <a>BLOG</a>
         </li>
         <li>
-          <a className={styles.contact}>CONTACT US</a>
+          <Link href="/contact-us">
+            <a className={styles.contact}>CONTACT US</a>
+          </Link>
         </li>
       </ul>
     </nav>
