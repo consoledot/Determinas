@@ -23,7 +23,9 @@ export default function Navigation() {
           <a>TECHNOLOGIES</a>
         </li>
         <li>
-          <a>CASE STUDIES</a>
+          <Link href="/case-studies">
+            <a>CASE STUDIES</a>
+          </Link>
         </li>
         <li>
           <a>ABOUT US</a>
