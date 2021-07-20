@@ -44,10 +44,13 @@ button {
 }
 .header-text-body {
   max-width: 500px;
-  padding: 5em 2rem;
+  padding: 0rem 2rem;
   color: white;
   backdrop-filter: blur(10px);
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-text-body p {
   font-size: 18px;

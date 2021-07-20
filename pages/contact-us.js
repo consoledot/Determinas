@@ -20,12 +20,14 @@ export default function ContactUs() {
         }}
       >
         <div className="header-text-body">
-          <h1>LET US PARTNER WITH YOU</h1>
-          <p>
-            We will work with you to use Data to keep you ahead of your
-            competitors by helping you make Data- driven business decisions.
-          </p>
-          <button>CONTACT US TODAY</button>
+          <div>
+            <h1>LET US PARTNER WITH YOU</h1>
+            <p>
+              We will work with you to use Data to keep you ahead of your
+              competitors by helping you make Data- driven business decisions.
+            </p>
+            <button>CONTACT US TODAY</button>
+          </div>
         </div>
       </header>
       <div

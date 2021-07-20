@@ -23,12 +23,15 @@ export default function CaseStudies() {
         }}
       >
         <div className="header-text-body">
-          <h1>SERVICES WE OFFER</h1>
-          <p>
-            Triumph new business milestones as we super-charge your growth with
-            our full-cycle software solutions, innovation and development.
-          </p>
-          <button>CONTACT US TODAY</button>
+          <div>
+            <h1>SERVICES WE OFFER</h1>
+            <p>
+              Triumph new business milestones as we super-charge your growth
+              with our full-cycle software solutions, innovation and
+              development.
+            </p>
+            <button>CONTACT US TODAY</button>
+          </div>
         </div>
       </header>
       <section

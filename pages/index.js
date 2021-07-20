@@ -33,12 +33,14 @@ export default function Home() {
       <Navigation />
       <header>
         <div className="header-text-body">
-          <h1>DIGITAL TRANSFORMATION</h1>
-          <p>
-            Harness the power of new, fast, and ever-evolving digital technology
-            to solve your business challenges
-          </p>
-          <button>CONTACT US TODAY</button>
+          <div>
+            <h1>DIGITAL TRANSFORMATION</h1>
+            <p>
+              Harness the power of new, fast, and ever-evolving digital
+              technology to solve your business challenges
+            </p>
+            <button>CONTACT US TODAY</button>
+          </div>
         </div>
       </header>
       <section>

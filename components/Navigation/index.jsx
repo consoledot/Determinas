@@ -17,7 +17,9 @@ export default function Navigation() {
           </Link>
         </li>
         <li>
-          <a>INDUSTRIES</a>
+          <Link href="/industries">
+            <a>INDUSTRIES</a>
+          </Link>
         </li>
         <li>
           <a>TECHNOLOGIES</a>
