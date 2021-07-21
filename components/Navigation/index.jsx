@@ -33,7 +33,9 @@ export default function Navigation() {
           <a>ABOUT US</a>
         </li>
         <li>
-          <a>BLOG</a>
+          <Link href="/blog">
+            <a>BLOG</a>
+          </Link>
         </li>
         <li>
           <Link href="/contact-us">

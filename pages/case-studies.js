@@ -5,6 +5,9 @@ import Navigation from "../components/Navigation";
 import explore1 from "../public/images/explore-1.png";
 import explore2 from "../public/images/explore-2.png";
 import explore3 from "../public/images/explore-3.png";
+import explore4 from "../public/images/explore-4.png";
+import explore5 from "../public/images/explore-5.png";
+import explore6 from "../public/images/explore-6.png";
 
 export default function CaseStudies() {
   return (
@@ -39,49 +42,53 @@ export default function CaseStudies() {
           padding: " 1rem 5rem",
         }}
       >
-        <div className=" explore">
-          <div className="item">
-            <Image src={explore1} />
-            <div className="text">
-              <h5>Lorem Ipsum Dolor Sit Amet</h5>
-              <p>Telecommunications</p>
+        <div>
+          <div className="explore">
+            <div className="item">
+              <Image src={explore1} />
+              <div className="text">
+                <h5>Lorem Ipsum Dolor Sit Amet</h5>
+                <p>Telecommunications</p>
+              </div>
+            </div>
+            <div className="item">
+              <Image src={explore2} />
+              <div className="text">
+                <h5>Lorem Ipsum Dolor Sit Amet</h5>
+                <p>Banking and Finance</p>
+              </div>
+            </div>
+            <div className="item">
+              <Image src={explore3} />
+              <div className="text">
+                <h5>Lorem Ipsum Dolor Sit Amet</h5>
+                <p>Education</p>
+              </div>
             </div>
           </div>
-          <div className="item">
-            <Image src={explore2} />
-            <div className="text">
-              <h5>Lorem Ipsum Dolor Sit Amet</h5>
-              <p>Banking and Finance</p>
+          <div className="explore">
+            <div className="item">
+              <Image src={explore4} />
+              <div className="text">
+                <h5>Lorem Ipsum Dolor Sit Amet</h5>
+                <p>Telecommunications</p>
+              </div>
+            </div>
+            <div className="item">
+              <Image src={explore5} />
+              <div className="text">
+                <h5>Lorem Ipsum Dolor Sit Amet</h5>
+                <p>Banking and Finance</p>
+              </div>
+            </div>
+            <div className="item">
+              <Image src={explore6} />
+              <div className="text">
+                <h5>Lorem Ipsum Dolor Sit Amet</h5>
+                <p>Education</p>
+              </div>
             </div>
           </div>
-          <div className="item">
-            <Image src={explore3} />
-            <div className="text">
-              <h5>Lorem Ipsum Dolor Sit Amet</h5>
-              <p>Education</p>
-            </div>
-          </div>
-          {/* <div className="item">
-            <Image src={explore1} />
-            <div className="text">
-              <h5>Lorem Ipsum Dolor Sit Amet</h5>
-              <p>Telecommunications</p>
-            </div>
-          </div>
-          <div className="item">
-            <Image src={explore2} />
-            <div className="text">
-              <h5>Lorem Ipsum Dolor Sit Amet</h5>
-              <p>Banking and Finance</p>
-            </div>
-          </div>
-          <div className="item">
-            <Image src={explore3} />
-            <div className="text">
-              <h5>Lorem Ipsum Dolor Sit Amet</h5>
-              <p>Education</p>
-            </div>
-          </div> */}
         </div>
         <div className="pagination">
           <span className="active">1</span>
