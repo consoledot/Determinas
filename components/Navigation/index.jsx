@@ -30,7 +30,9 @@ export default function Navigation() {
           </Link>
         </li>
         <li>
-          <a>ABOUT US</a>
+          <Link href="/about-us">
+            <a>ABOUT US</a>
+          </Link>
         </li>
         <li>
           <Link href="/blog">
