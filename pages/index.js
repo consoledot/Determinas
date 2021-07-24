@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import Industries from "../components/Indutries";
 import styles from "../styles/Home.module.css";
 import arrow from "../public/images/arrow.svg";
 import explore1 from "../public/images/explore-1.png";
@@ -12,17 +13,6 @@ import feature2 from "../public/images/feature-2.png";
 import feature3 from "../public/images/feature-3.png";
 
 export default function Home() {
-  const focuses = [
-    "TELECOMMUNICATIONS",
-    "MANUFACTURING",
-    "AGRICULTURE",
-    "ENERGY",
-    "E-COMMERCE",
-    "TRANSPORT AND LOGISTICS",
-    "BANKING AND FINANCE",
-    "HEALTHCARE",
-    "EDUCATION",
-  ];
   return (
     <div>
       <Head>
@@ -112,13 +102,7 @@ export default function Home() {
             expectations and to help you take a leading role in your industry.
           </p>
         </div>
-        <div className="focus">
-          {focuses.map((focus, i) => (
-            <div key={i}>
-              <p>{focus}</p>
-            </div>
-          ))}
-        </div>
+        <Industries />
       </section>
       <section
         style={{

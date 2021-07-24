@@ -1,5 +1,6 @@
 import styles from "./index.module.css";
 import Image from "next/image";
+import Link from "next/link";
 import ContactForm from "../Contect Form";
 import mail from "../../public/images/mail.svg";
 import phone from "../../public/images/phone.svg";
@@ -16,21 +17,30 @@ export default function Footer() {
             <li className={styles.first}>Big Data & Analytics</li>
             <li>Data Governance</li>
             <li>Data Engineering</li>
-            <li>Business Intelligence & Data Visualisation</li>
+            <li>
+              {" "}
+              <Link href="/business-inteligence-&-data-visualization">
+                Business Intelligence & Data Visualisation
+              </Link>
+            </li>
             <li>Data science</li>
           </ul>
           <ul>
             <li className={styles.first}>Software Product & Innovation</li>
             <li>End to End Product Engineering</li>
             <li>Product Design</li>
-            <li> Product Development</li>
+            <li>Product Development</li>
             <li>APP Restructuring</li>
           </ul>
           <ul>
             <li className={styles.first}>GROWTH MARKETING</li>
             <li>Market Research</li>
             <li>Market Intelligence Service</li>
-            <li>Business Strategy Support</li>
+            <li>
+              <Link href="/business-strategy-support">
+                Business Strategy Support
+              </Link>
+            </li>
             <li>Investment Research Services</li>
           </ul>
         </div>

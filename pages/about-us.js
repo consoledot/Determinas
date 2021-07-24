@@ -1,12 +1,20 @@
 import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/Footer";
+import Industries from "../components/Indutries";
 import Navigation from "../components/Navigation";
 import image1 from "../public/images/who-we-are.png";
 import image2 from "../public/images/how-we-work.png";
 import arrow_right from "../public/images/arrow-right.svg";
 
 export default function AboutUs() {
+  const coreValues = [
+    "EXCELLENCE",
+    "INNOVATION",
+    "EMPATHY",
+    "INTEGRITY",
+    "COMMUNITY BUILDING",
+  ];
   return (
     <div>
       <Head>
@@ -102,7 +110,65 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <section className="core-values"></section>
+      <section className="core-values">
+        <div className="outer-focus">
+          <h2>OUR CORE VALUES</h2>
+          <div className="focus">
+            {coreValues.map((value, i) => (
+              <div key={i}>{value}</div>
+            ))}
+          </div>
+        </div>
+
+        <div className="who-we-are">
+          <div>
+            <h4>WE ARE:</h4>
+            <ul>
+              <li>Rigorous</li>
+              <li>Efficient</li>
+              <li>Diligent</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Inspired</li>
+              <li>Creative</li>
+              <li>Bold</li>
+              <li>Curious</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Awareness</li>
+              <li>Understanding</li>
+              <li>Hospitality</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Authentic</li>
+              <li>Transparent</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Dilligence</li>
+              <li>Leadership</li>
+              <li>Inclusion</li>
+              <li>Diversity</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
+        style={{
+          padding: " 1rem 3rem",
+        }}
+      >
+        <h2>INDUSTRY EXPERTISE</h2>
+        <Industries />
+      </section>
+      <Footer />
     </div>
   );
 }
