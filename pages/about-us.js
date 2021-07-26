@@ -57,7 +57,7 @@ export default function AboutUs() {
           </p>
         </div>
         <div className="choose-us">
-          <Image src={image1} />
+          <Image src={image1} alt="" />
           <div>
             <h3>WHY YOU SHOULD CHOOSE DETERMINAS ?</h3>
             <p>
@@ -65,7 +65,7 @@ export default function AboutUs() {
               and exceptional perfomance. We believe in Speed and Accurate
               Insight - that using intelligence, expertise, and science to
               improve businesses can help create a better and more prosperous
-              society for everyone.{" "}
+              society for everyone.
             </p>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="how-we-work">
-          <Image src={image2} />
+          <Image src={image2} alt="" />
           <div>
             <h3>HOW WE WORK</h3>
             <p>
@@ -104,7 +104,7 @@ export default function AboutUs() {
               technology and Big Data.
             </p>
             <button>
-              <Image src={arrow_right} />
+              <Image src={arrow_right} alt="" />
               LET’S DISCUSS YOUR PROJECT
             </button>
           </div>

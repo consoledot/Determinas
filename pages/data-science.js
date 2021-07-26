@@ -90,7 +90,7 @@ export default function DATASCI() {
               <li>
                 Gain consumer insights: Organizations can use our text analytics
                 services to decipher the meaning of texts, find trends and
-                themes, and gain a better understanding of their customers'
+                themes, and gain a better understanding of their customers
                 opinions, wants, and requirements.
               </li>
               <li>
@@ -198,7 +198,7 @@ export default function DATASCI() {
                 established conditions and objectives.
               </li>
               <li>
-                We carry out comparative scenario analysis with 'What if'
+                We carry out comparative scenario analysis with -What if-
                 simulators to see which of several potential solutions provides
                 the most outstanding overall results.
               </li>

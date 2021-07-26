@@ -55,7 +55,7 @@ export default function Home() {
               <li>Data Engineering</li>
               <li>Business intelligence & Data Visualisation</li>
               <li>Data Science</li>
-              <Image src={arrow} />
+              <Image src={arrow} alt="" />
             </ul>
           </div>
           <div className="item">
@@ -65,7 +65,7 @@ export default function Home() {
               <li>Product Design</li>
               <li>Product Development</li>
               <li>App Restructuring</li>
-              <Image src={arrow} />
+              <Image src={arrow} alt="" />
             </ul>
           </div>
           <div className="item">
@@ -74,7 +74,7 @@ export default function Home() {
               <li>Talent Fellowship</li>
               <li>Talent As a Service</li>
               <li>Talent Outsourcing</li>
-              <Image src={arrow} />
+              <Image src={arrow} alt="" />
             </ul>
           </div>
           <div className="item">
@@ -84,7 +84,7 @@ export default function Home() {
               <li>Market Research</li>
               <li>Market Intelligence</li>
               <li>Investment Research </li>
-              <Image src={arrow} />
+              <Image src={arrow} alt="" />
             </ul>
           </div>
         </div>
@@ -118,21 +118,21 @@ export default function Home() {
         </div>
         <div className="explore">
           <div className="item">
-            <Image src={explore1} />
+            <Image src={explore1} alt="" />
             <div className="text">
               <h5>Lorem Ipsum Dolor Sit Amet</h5>
               <p>Telecommunications</p>
             </div>
           </div>
           <div className="item">
-            <Image src={explore2} />
+            <Image src={explore2} alt="" />
             <div className="text">
               <h5>Lorem Ipsum Dolor Sit Amet</h5>
               <p>Banking and Finance</p>
             </div>
           </div>
           <div className="item">
-            <Image src={explore3} />
+            <Image src={explore3} alt="" />
             <div className="text">
               <h5>Lorem Ipsum Dolor Sit Amet</h5>
               <p>Education</p>
@@ -150,21 +150,21 @@ export default function Home() {
         </div>
         <div className="features">
           <div>
-            <Image src={feature1} />
+            <Image src={feature1} alt="" />
             <div className="text">
               <h5>Model Fitting and Generalization</h5>
               <p>Machine Learning</p>
             </div>
           </div>
           <div>
-            <Image src={feature2} />
+            <Image src={feature2} alt="" />
             <div className="text">
               <h5>What is Artificial Intelligence?</h5>
               <p>Artificial Intelligence</p>
             </div>
           </div>
           <div>
-            <Image src={feature3} />
+            <Image src={feature3} alt="" />
             <div className="text">
               <h5>Artificial Intelligence in the Health Care Sector</h5>
               <p>Healthcare</p>

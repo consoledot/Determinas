@@ -45,21 +45,21 @@ export default function CaseStudies() {
         <div>
           <div className="explore">
             <div className="item">
-              <Image src={explore1} />
+              <Image src={explore1} alt="" />
               <div className="text">
                 <h5>Lorem Ipsum Dolor Sit Amet</h5>
                 <p>Telecommunications</p>
               </div>
             </div>
             <div className="item">
-              <Image src={explore2} />
+              <Image src={explore2} alt="" />
               <div className="text">
                 <h5>Lorem Ipsum Dolor Sit Amet</h5>
                 <p>Banking and Finance</p>
               </div>
             </div>
             <div className="item">
-              <Image src={explore3} />
+              <Image src={explore3} alt="" />
               <div className="text">
                 <h5>Lorem Ipsum Dolor Sit Amet</h5>
                 <p>Education</p>
@@ -68,21 +68,21 @@ export default function CaseStudies() {
           </div>
           <div className="explore">
             <div className="item">
-              <Image src={explore4} />
+              <Image src={explore4} alt="" />
               <div className="text">
                 <h5>Lorem Ipsum Dolor Sit Amet</h5>
                 <p>Telecommunications</p>
               </div>
             </div>
             <div className="item">
-              <Image src={explore5} />
+              <Image src={explore5} alt="" />
               <div className="text">
                 <h5>Lorem Ipsum Dolor Sit Amet</h5>
                 <p>Banking and Finance</p>
               </div>
             </div>
             <div className="item">
-              <Image src={explore6} />
+              <Image src={explore6} alt="" />
               <div className="text">
                 <h5>Lorem Ipsum Dolor Sit Amet</h5>
                 <p>Education</p>

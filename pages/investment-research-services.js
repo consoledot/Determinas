@@ -77,7 +77,7 @@ export default function IRS() {
             </li>
             <li>
               Clients supply qualitative and quantitative information on the
-              company's background to assist in establishing views and making
+              companys background to assist in establishing views and making
               decisions. In addition, we provide comprehensive corporate and
               sector reports tailored to your needs.
             </li>
@@ -108,7 +108,7 @@ export default function IRS() {
             <li>
               Performance benchmarking, tracking the operating industry
               environment, keeping dashboards, value mark-up analyses, and other
-              activities are all used to track portfolio companies' performance.
+              activities are all used to track portfolio companies performance.
             </li>
             <li>
               Perform valued studies, creating information memorandums,
@@ -142,7 +142,7 @@ export default function IRS() {
               growth projections are all detailed in this report.
             </li>
             <li>
-              We Provide deal-related presentations that emphasise the target's
+              We Provide deal-related presentations that emphasise the targets
               financial and operational data, as well as strategic and economic
               benefits, Identifying and assessing possible purchasers or targets
               for a particular investment banking mandate.
@@ -188,7 +188,7 @@ export default function IRS() {
             analysts, and regulators can benefit from our adaptable,
             configurable solutions. We use bespoke, automation-powered solutions
             to enable adequate coverage of big universes while also helping
-            businesses stand out from the crowd.{" "}
+            businesses stand out from the crowd.
           </p>
           <ul>
             <li>
@@ -197,7 +197,7 @@ export default function IRS() {
             </li>
             <li>
               White-labeled and ready-to-publish research output that aligns
-              with the banks' internal investment philosophy.
+              with the banks internal investment philosophy.
             </li>
             <li>
               Support for massive universes, including coverage initiation,
@@ -219,7 +219,7 @@ export default function IRS() {
           <ul>
             <li>
               Improve investment decisions by combining domain expertise with a
-              "client first" mentality.
+              -client first- mentality.
             </li>
             <li>
               Identify investment opportunities, evaluate prospective

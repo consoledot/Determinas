@@ -32,10 +32,10 @@ export default function DataEng() {
           <h2>DATA Engineering </h2>
           <p>
             We employ cutting-edge technology platforms to support data-driven
-            transformation in this data-driven era. Determinas' comprehensive
-            data engineering services help your advanced analytics thrive by
-            enabling your data strategy - ensuring access to the appropriate
-            data at the right time and in the proper format.
+            transformation in this data-driven era. Determinas &apos
+            comprehensive data engineering services help your advanced analytics
+            thrive by enabling your data strategy - ensuring access to the
+            appropriate data at the right time and in the proper format.
           </p>
           <h4>Automation of Data Processes</h4>
           <p>

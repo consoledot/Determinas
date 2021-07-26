@@ -49,7 +49,7 @@ export default function Blog() {
         <div className="input-div">
           <input placeholder="Search for a Topic..." />
           <button>
-            <Image src={search} />
+            <Image src={search} alt="" />
           </button>
         </div>
         <div>
@@ -57,7 +57,7 @@ export default function Blog() {
           <div className="input-div">
             <input placeholder="Enter an E-mail Address..." />
             <button>
-              <Image src={arrow_right} />
+              <Image src={arrow_right} alt="" />
             </button>
           </div>
         </div>
@@ -80,21 +80,21 @@ export default function Blog() {
         <div>
           <div className="features">
             <div>
-              <Image src={feature1} />
+              <Image src={feature1} alt="" />
               <div className="text">
                 <h5>Model Fitting and Generalization</h5>
                 <p>Machine Learning</p>
               </div>
             </div>
             <div>
-              <Image src={feature2} />
+              <Image src={feature2} alt="" />
               <div className="text">
                 <h5>What is Artificial Intelligence?</h5>
                 <p>Artificial Intelligence</p>
               </div>
             </div>
             <div>
-              <Image src={feature3} />
+              <Image src={feature3} alt="" />
               <div className="text">
                 <h5>Artificial Intelligence in the Health Care Sector</h5>
                 <p>Healthcare</p>
@@ -103,21 +103,21 @@ export default function Blog() {
           </div>
           <div className="features">
             <div>
-              <Image src={feature4} />
+              <Image src={feature4} alt="" />
               <div className="text">
                 <h5>Model Fitting and Generalization</h5>
                 <p>Machine Learning</p>
               </div>
             </div>
             <div>
-              <Image src={feature5} />
+              <Image src={feature5} alt="" />
               <div className="text">
                 <h5>What is Artificial Intelligence?</h5>
                 <p>Artificial Intelligence</p>
               </div>
             </div>
             <div>
-              <Image src={feature6} />
+              <Image src={feature6} alt="" />
               <div className="text">
                 <h5>Artificial Intelligence in the Health Care Sector</h5>
                 <p>Healthcare</p>
