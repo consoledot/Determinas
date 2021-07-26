@@ -24,7 +24,7 @@ export default function Navigation() {
   return (
     <nav className={styles.nav}>
       <Link href="/">
-        <Image src={logo} />
+        <Image src={logo} alt="" />
       </Link>
 
       <ul>

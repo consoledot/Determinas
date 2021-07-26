@@ -18,7 +18,6 @@ export default function Footer() {
             <li>Data Governance</li>
             <li>Data Engineering</li>
             <li>
-              {" "}
               <Link href="/business-inteligence-&-data-visualization">
                 Business Intelligence & Data Visualisation
               </Link>
@@ -85,15 +84,15 @@ export default function Footer() {
           <p>CONTACT US</p>
           <ul>
             <li>
-              <Image src={phone} />
+              <Image src={phone} alt="" />
               +2347066048100
             </li>
             <li>
-              <Image src={mail} />
+              <Image src={mail} alt="" />
               info@determinas.com
             </li>
             <li>
-              <Image src={address} />
+              <Image src={address} alt="" />
               Ibukun House, Ademola Adetokunbo Street, Victoria Island , Lagos.
             </li>
           </ul>

@@ -9,7 +9,7 @@ export default function WhatWeOffer() {
     <div className="services">
       <div>
         <div className="service-img">
-          <Image src={analytics} />
+          <Image src={analytics} alt="" />
         </div>
 
         <div className="item">
@@ -24,7 +24,7 @@ export default function WhatWeOffer() {
       </div>
       <div>
         <div className="service-img">
-          <Image src={computer} />
+          <Image src={computer} alt="" />
         </div>
 
         <div className="item">
@@ -39,7 +39,7 @@ export default function WhatWeOffer() {
       </div>
       <div>
         <div className="service-img">
-          <Image src={bulb} />
+          <Image src={bulb} alt="" />
         </div>
 
         <div className="item">
@@ -53,7 +53,7 @@ export default function WhatWeOffer() {
       </div>
       <div>
         <div className="service-img">
-          <Image src={growth} />
+          <Image src={growth} alt="" />
         </div>
 
         <div className="item">
