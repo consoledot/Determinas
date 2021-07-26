@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Industries from "../components/Indutries";
+import TalentPool from "../components/Talent Pool";
 import styles from "../styles/Home.module.css";
 import arrow from "../public/images/arrow.svg";
 import explore1 from "../public/images/explore-1.png";
@@ -171,10 +172,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="talent-pool">
-        <p>NEED TO PUT TOGETHER A TEAM OF TALENTS FOR YOUR NEXT PROJECT?</p>
-        <button>ACCESS OUR TALENT POOL</button>
-      </section>
+      <TalentPool />
       <Footer />
     </div>
   );
