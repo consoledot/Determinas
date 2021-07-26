@@ -4,6 +4,23 @@ import logo from "../../public/images/logo.svg";
 import styles from "./index.module.css";
 
 export default function Navigation() {
+  const industries = [
+    "Telecommunications",
+    "Education",
+    "Healthcare",
+    "Commerce",
+    "Agriculture",
+    "Energy",
+    "Banking and Finance",
+    "Manufacturing",
+    "Transportation and Logistics",
+  ];
+  const services = [
+    "Big Data And Analytics",
+    "Software Product and Innovation",
+    "Talent Mobility",
+    "Growth Marketing",
+  ];
   return (
     <nav className={styles.nav}>
       <Link href="/">
@@ -15,11 +32,21 @@ export default function Navigation() {
           <Link href="/services">
             <a>SERVICES</a>
           </Link>
+          <div className={styles.dropdown}>
+            {services.map((service, i) => (
+              <li key={i}>{service}</li>
+            ))}
+          </div>
         </li>
         <li>
           <Link href="/industries">
             <a>INDUSTRIES</a>
           </Link>
+          <div className={styles.dropdown}>
+            {industries.map((industry, i) => (
+              <li key={i}>{industry}</li>
+            ))}
+          </div>
         </li>
         <li>
           <a>TECHNOLOGIES</a>

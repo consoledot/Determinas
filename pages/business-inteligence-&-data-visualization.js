@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import WhatWeOffer from "../components/What we Offer";
 import Industries from "../components/Indutries";
+import TalentPool from "../components/Talent Pool";
 export default function BSI() {
   return (
     <div>
@@ -40,14 +41,8 @@ export default function BSI() {
           </p>
         </div>
       </section>
-      <div>
-        <WhatWeOffer />
-      </div>
-
-      <section className="talent-pool">
-        <p>NEED TO PUT TOGETHER A TEAM OF TALENTS FOR YOUR NEXT PROJECT?</p>
-        <button>ACCESS OUR TALENT POOL</button>
-      </section>
+      <WhatWeOffer />
+      <TalentPool />
       <Industries />
       <Footer />
     </div>
