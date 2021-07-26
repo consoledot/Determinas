@@ -49,6 +49,7 @@
   display: flex;
   gap: 0.5rem;
   align-items: flex-start;
+  line-height: 20px;
 }
 .footer ul li img {
   height: 30px;
