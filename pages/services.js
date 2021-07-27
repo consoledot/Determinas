@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import WhatWeOffer from "../components/What we Offer";
 
-export default function Service() {
+export default function Services() {
   return (
     <div>
       <Head>

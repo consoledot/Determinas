@@ -33,9 +33,44 @@ export default function Navigation() {
             <a>SERVICES</a>
           </Link>
           <div className={styles.dropdown}>
-            {services.map((service, i) => (
+            {/* {services.map((service, i) => (
               <li key={i}>{service}</li>
-            ))}
+            ))} */}
+            <li>
+              Big Data And Analytics
+              <div className={styles.inner_dropdown}>
+                <li>Data Governance</li>
+                <li>Data Engineering</li>
+                <li>Business Intelligence & Visualisation</li>
+                <li>Data Science</li>
+              </div>
+            </li>
+            <li>
+              Software Product and Innovation
+              <div className={styles.inner_dropdown}>
+                <li>End to End Product Engineering</li>
+                <li>Product Design</li>
+                <li>Product Development</li>
+                <li>App Restructuring</li>
+              </div>
+            </li>
+            <li>
+              Talent Mobility
+              <div className={styles.inner_dropdown}>
+                <li>Talent Fellowship</li>
+                <li>Talent As a Service</li>
+                <li>Talent Outsourcing</li>
+              </div>
+            </li>
+            <li>
+              Growth Marketing
+              <div className={styles.inner_dropdown}>
+                <li>Market Research</li>
+                <li>Market Intelligence</li>
+                <li>Business Strategy Support</li>
+                <li>Investment Research</li>
+              </div>
+            </li>
           </div>
         </li>
         <li>

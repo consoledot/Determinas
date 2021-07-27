@@ -87,7 +87,7 @@ button {
   margin: 2rem auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   gap: 1rem 4rem;
   text-transform: uppercase;
   justify-content: center;
@@ -101,6 +101,15 @@ button {
 }
 .absolute-section .list p {
   line-height: 10px;
+}
+.absolute-section .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.absolute-section .flex .text {
+  width: 70%;
 }
 .section-list {
   display: flex;

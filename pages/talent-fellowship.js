@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import WhatWeOffer from "../components/What we Offer";
 import Industries from "../components/Indutries";
-export default function BSI() {
+export default function TAF() {
   return (
     <div>
       <Head>
