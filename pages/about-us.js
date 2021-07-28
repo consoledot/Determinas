@@ -3,9 +3,15 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import Industries from "../components/Indutries";
 import Navigation from "../components/Navigation";
+import TalentPool from "../components/Talent Pool";
 import image1 from "../public/images/who-we-are.png";
 import image2 from "../public/images/how-we-work.png";
 import arrow_right from "../public/images/arrow-right.svg";
+import ceo from "../public/images/ceo.png";
+import coo from "../public/images/coo.png";
+import partner from "../public/images/partner.png";
+import crystal_lg from "../public/images/crystal-large.svg";
+import crystal_sm from "../public/images/crystal-small.svg";
 
 export default function AboutUs() {
   const coreValues = [
@@ -168,6 +174,58 @@ export default function AboutUs() {
         <h2>INDUSTRY EXPERTISE</h2>
         <Industries />
       </section>
+      <section
+        style={{
+          padding: " 1rem 0rem",
+          position: "relative",
+        }}
+      >
+        <h2
+          style={{
+            padding: "0 3rem",
+          }}
+        >
+          OUR LEADERSHIP TEAM
+        </h2>
+        <div className="leadership">
+          <div className="explore">
+            <div className="item">
+              <Image src={ceo} alt="" />
+              <div className="text">
+                <h5>Theophilus Babatunde Medeiros</h5>
+                <p>Founder/CEO</p>
+              </div>
+            </div>
+            <div className="item">
+              <Image src={coo} alt="" />
+              <div className="text">
+                <h5>Ugwumba Desire Chukwudi</h5>
+                <p>Ugwumba Desire Chukwudi</p>
+              </div>
+            </div>
+          </div>
+          <div className="explore">
+            <div className="item">
+              <Image src={partner} alt="" />
+              <div className="text">
+                <h5>Olayemi Wonuola Keri, CRISC, MSC</h5>
+                <p>Co-Founder/Partner</p>
+              </div>
+            </div>
+          </div>
+          <div className="top">
+            <Image src={crystal_lg} alt="" />
+            <Image src={crystal_sm} alt="" />
+          </div>
+          <div className="bottom">
+            <Image src={crystal_sm} alt="" />
+            <Image src={crystal_lg} alt="" />
+          </div>
+        </div>
+
+        <div className="paint"></div>
+      </section>
+      <TalentPool />
       <Footer />
     </div>
   );
