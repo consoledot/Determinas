@@ -2,8 +2,64 @@ import Head from "next/head";
 import Image from "next/image";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import image1 from "../public/images/telecommunication.svg";
+import image2 from "../public/images/education.svg";
+import image3 from "../public/images/health.svg";
+import image4 from "../public/images/commerce.svg";
+import image5 from "../public/images/agriculture.svg";
+import image6 from "../public/images/banking.svg";
+import image7 from "../public/images/transportation.svg";
+import image8 from "../public/images/manufacturing.svg";
+import image9 from "../public/images/energy.svg";
 
 export default function Indutsries() {
+  const industries = [
+    {
+      image: image1,
+      header: "TELECOMMUNICATIONS",
+      text: "We help teecommunications companies to make data-driven decisions. we employ big data tools to solve crucial problems such as customer churn/retention, fraud detection, real-time network analysis, customer lifetime value prediction and customer segmentation.",
+    },
+    {
+      image: image2,
+      header: "EDUCATION",
+      text: "The application of cutting-edge technology in Artificial intelligence and machine learning will help shape the spread and proper dissemination of knowledge, ideas and create numerous solutions amongst all the players in the education sector.",
+    },
+    {
+      image: image3,
+      header: "HEALTHCARE",
+      text: "We empower healthcare providers with innovative solutions that automate processes, improve treatment outcomes and patient experience, while reducing costs.",
+    },
+    {
+      image: image4,
+      header: "E-COMMERCE",
+      text: "We transform the retail customer experience with personalized, enterprise  e-platforms technology that uses all the data you have while delivering a compelling e-retail software solution.",
+    },
+    {
+      image: image5,
+      header: "AGRICULTURE",
+      text: "Our solutions help farmers make better data-driven decisions and deploying AI solutions to solve problems threatening food security.",
+    },
+    {
+      image: image6,
+      header: "BANKING AND FINANACE",
+      text: "We change the way people interact with money by providing services that optimise finance processes ranging from credit decisions to personalised baning an marketing.",
+    },
+    {
+      image: image7,
+      header: "TRANSPORT AND LOGISTICS",
+      text: "Our solutions help transport and suppy chain companies optimise their fleet utiisation,increase customer satisfaction and drive revenue.",
+    },
+    {
+      image: image8,
+      header: "MANUFACTURING",
+      text: "Our AI solutions and data analytics services are poised to help you optimise your entire processes from raw materials sourcing and production to better goods and service delivery.",
+    },
+    {
+      image: image9,
+      header: "ENERGY",
+      text: "Powered by Artificial Intelligence, we help you optimise your consolidated energy generation (an) or distribution pipeline in order to help you reduce cost and curb energy losses.",
+    },
+  ];
   return (
     <div>
       <Head>
@@ -42,6 +98,80 @@ export default function Indutsries() {
             a market leader in the industry.
           </p>
           <h2>INDUSTRIES WE SERVE</h2>
+          <div className="industries">
+            <div>
+              <div className="item">
+                <div className="image">
+                  <Image src={industries[0].image} alt="" />
+                </div>
+
+                <h3>{industries[0].header}</h3>
+                <p>{industries[0].text}</p>
+              </div>
+              <div className="item">
+                <div className="image">
+                  <Image src={industries[4].image} alt="" />
+                </div>
+                <h3>{industries[4].header}</h3>
+                <p>{industries[4].text}</p>
+              </div>
+              <div className="item">
+                <div className="image">
+                  <Image src={industries[8].image} alt="" />
+                </div>
+                <h3>{industries[8].header}</h3>
+                <p>{industries[8].text}</p>
+              </div>
+            </div>
+            <div>
+              <div className="item">
+                <div className="image">
+                  <Image src={industries[1].image} alt="" />
+                </div>
+                <h3>{industries[1].header}</h3>
+                <p>{industries[1].text}</p>
+              </div>
+              <div className="item">
+                <div className="image">
+                  <Image src={industries[5].image} alt="" />
+                </div>
+                <h3>{industries[5].header}</h3>
+                <p>{industries[5].text}</p>
+              </div>
+            </div>
+            <div>
+              <div className="item">
+                <div className="image">
+                  <Image src={industries[2].image} alt="" />
+                </div>
+                <h3>{industries[2].header}</h3>
+                <p>{industries[2].text}</p>
+              </div>
+              <div className="item">
+                <div className="image">
+                  <Image src={industries[6].image} alt="" />
+                </div>
+                <h3>{industries[6].header}</h3>
+                <p>{industries[6].text}</p>
+              </div>
+            </div>
+            <div>
+              <div className="item">
+                <div className="image">
+                  <Image src={industries[3].image} alt="" />
+                </div>
+                <h3>{industries[3].header}</h3>
+                <p>{industries[3].text}</p>
+              </div>
+              <div className="item">
+                <div className="image">
+                  <Image src={industries[7].image} alt="" />
+                </div>
+                <h3>{industries[7].header}</h3>
+                <p>{industries[7].text}</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />
