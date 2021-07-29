@@ -15,10 +15,11 @@ export default function Blog() {
   const topics = [
     "ALL",
     "TELECOMMUNICATIONS",
-    "MANUFACTURING",
-    "MARKET RESEARCH",
-    "PRODUCT DESIGN",
+
     "DATA SCIENCE",
+    "MARKET RESEARCH",
+    "MANUFACTURING",
+    "PRODUCT DESIGN",
   ];
   return (
     <div>
@@ -62,11 +63,7 @@ export default function Blog() {
           </div>
         </div>
       </section>
-      <section
-        style={{
-          padding: "1rem 3rem",
-        }}
-      >
+      <section className="container-section blog">
         <div>
           <h2>TOPICS</h2>
           <div className="topics">

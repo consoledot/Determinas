@@ -86,7 +86,7 @@ export default function Navigation() {
           <Link href="/industries">
             <div className={styles.link_list}>
               <a>INDUSTRIES</a>
-              <Image src={arrow_down} alt="" />
+              <Image src={arrow_down} alt="" className="arrow" />
             </div>
           </Link>
           <div className={styles.dropdown}>

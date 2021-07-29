@@ -3,6 +3,7 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import WhatWeOffer from "../components/What we Offer";
+import TalentPool from "../components/Talent Pool";
 
 export default function Services() {
   return (
@@ -32,12 +33,8 @@ export default function Services() {
           </div>
         </div>
       </header>
-      <section>
-        <div
-          style={{
-            padding: "1rem",
-          }}
-        >
+      <section className="container-section">
+        <div>
           <p>
             Get proven software engineering and consulting services. We partner
             with companies like yours to create custom solutions that drive
@@ -47,10 +44,7 @@ export default function Services() {
         </div>
         <WhatWeOffer />
       </section>
-      <section className="talent-pool">
-        <p>NEED TO PUT TOGETHER A TEAM OF TALENTS FOR YOUR NEXT PROJECT?</p>
-        <button>ACCESS OUR TALENT POOL</button>
-      </section>
+      <TalentPool />
       <Footer />
     </div>
   );

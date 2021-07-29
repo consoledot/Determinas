@@ -37,11 +37,7 @@ export default function CaseStudies() {
           </div>
         </div>
       </header>
-      <section
-        style={{
-          padding: " 1rem 5rem",
-        }}
-      >
+      <section className="container-section case-studies">
         <div>
           <div className="explore">
             <div className="item">

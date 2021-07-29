@@ -14,7 +14,7 @@ export default function ContactForm() {
           This site is protected by reCAPTCHA and the Google Privacy Policy and
           Terms of Service apply.
         </p>
-        <div>
+        <div className={styles.bottom}>
           <span>
             <input type="checkbox" name="accept" />
             <span>I accept the Privacy Policy</span>

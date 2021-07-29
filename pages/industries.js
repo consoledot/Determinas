@@ -85,12 +85,8 @@ export default function Indutsries() {
           </div>
         </div>
       </header>
-      <section>
-        <div
-          style={{
-            padding: "1rem",
-          }}
-        >
+      <section className="container-section">
+        <div>
           <p>
             Our experience with industries helps us understand the market
             specifics and create software customized to a specific niche. Our

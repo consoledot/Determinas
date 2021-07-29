@@ -89,11 +89,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section
-        style={{
-          padding: " 1rem 3rem",
-        }}
-      >
+      <section className="container-section">
         <div>
           <h2>OUR FOCUS INDUSTRIES</h2>
           <p>
@@ -105,11 +101,7 @@ export default function Home() {
         </div>
         <Industries />
       </section>
-      <section
-        style={{
-          padding: " 1rem 3rem",
-        }}
-      >
+      <section className="container-section">
         <div>
           <h2>EXPLORE</h2>
           <p>
@@ -140,11 +132,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section
-        style={{
-          padding: " 1rem 3rem",
-        }}
-      >
+      <section className="container-section">
         <div>
           <h2>FEATURED CONTENT</h2>
         </div>

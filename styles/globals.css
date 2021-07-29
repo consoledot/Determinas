@@ -4,11 +4,14 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  overflow: hidden;
 }
 
 * {
@@ -38,6 +41,14 @@ header {
   height: 60vh;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 700px) {
+  header {
+    height: 75vh;
+  }
+  P {
+    font-size: 14px !important;
+  }
 }
 button {
   background-color: #0a5989;
@@ -137,8 +148,37 @@ button {
   justify-content: center;
   gap: 1rem;
 }
+.container-section {
+  padding: 1rem 3rem;
+}
 .section-list .flex > div {
   max-width: 49%;
+}
+@media screen and (max-width: 700px) {
+  h2 {
+    line-height: 30px;
+  }
+  .absolute-section {
+    top: 0;
+  }
+  .absolute-section > div {
+    padding: 1rem;
+  }
+  .absolute-section .list {
+    flex-direction: column;
+  }
+  .absolute-section .list p {
+    line-height: 24px;
+  }
+  .container-section {
+    padding: 1rem;
+  }
+  .container-section h2 {
+    font-size: 24px;
+  }
+  .absolute-section .flex {
+    flex-direction: column;
+  }
 }
 /* HOME */
 .discover {
@@ -174,6 +214,17 @@ button {
 .discover .item img {
   margin-top: 0.5rem !important;
 }
+@media screen and (max-width: 700px) {
+  .discover {
+    padding: 1rem 0rem 0rem 0rem;
+    background-position: cover;
+  }
+  .discover .item {
+    border-right: none;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+  }
+}
 .focus {
   padding: 1rem 0;
   display: flex;
@@ -188,7 +239,17 @@ button {
 .focus div p {
   font-weight: 500;
 }
-
+@media screen and (max-width: 700px) {
+  .focus {
+    gap: 1rem;
+  }
+  .focus div {
+    padding: 0.001rem 0.7rem;
+  }
+  .focus p {
+    font-size: 12px;
+  }
+}
 .explore {
   display: grid;
   padding: 2rem 0;
@@ -222,6 +283,21 @@ button {
   font-weight: 500;
   margin: 0;
 }
+@media screen and (max-width: 700px) {
+  .explore {
+    overflow-y: scroll;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100vw;
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
+  .explore .item {
+    width: 400px !important;
+  }
+  .explore .item .text {
+    box-shadow: none;
+  }
+}
 .features {
   display: grid;
   padding: 1rem 0;
@@ -245,6 +321,18 @@ button {
 .features .text p {
   padding-left: 1em;
 }
+@media screen and (max-width: 700px) {
+  .features {
+    overflow-y: scroll;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100vw;
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
+  .features > div {
+    width: 400px !important;
+  }
+}
 .talent-pool {
   max-width: 500px;
   margin: 3rem auto;
@@ -259,7 +347,11 @@ button {
   line-height: 27px;
   margin: 2rem 0;
 }
-
+@media screen and (max-width: 700px) {
+  .talent-pool {
+    padding: 2rem;
+  }
+}
 /* Service */
 .services {
   display: grid;
@@ -292,7 +384,36 @@ button {
   font-weight: 400;
   font-size: 16px;
 }
-
+@media screen and (max-width: 700px) {
+  .services {
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .services > div {
+    position: relative;
+    margin-top: 4rem;
+  }
+  .services .service-img {
+    position: static;
+    width: fit-content;
+    display: flex;
+    top: -3rem;
+    left: 1rem;
+    position: absolute;
+  }
+  .services .item h4 {
+    font-size: 24px;
+    margin-top: 4rem;
+  }
+  .services .item {
+    box-shadow: 0px 2px 4px rgba(189, 189, 189, 0.25);
+    border: 1px solid rgba(189, 189, 189, 0.3);
+    padding: 0 2rem;
+  }
+}
 /* Case Studies */
 .pagination {
   margin-top: 5rem;
@@ -348,6 +469,9 @@ button {
   background-color: #f15d2d;
   padding-left: 0;
 }
+.blog {
+  margin-top: -5rem !important;
+}
 .topics {
   display: flex;
   gap: 1.5rem;
@@ -376,6 +500,29 @@ button {
 .mission-vision {
   display: flex;
 }
+@media screen and (max-width: 700px) {
+  /* .blog {
+    margin: 0 auto;
+  } */
+  .blog-search .input-div:first-child {
+    display: none;
+  }
+  .topics {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  .topics p {
+    padding: 0.5rem;
+    margin: 0;
+  }
+  .blog .features {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+  }
+}
 /* Industries */
 .industries {
   display: flex;
@@ -387,7 +534,6 @@ button {
 .industries > div {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
 }
 .industries > div:nth-child(2),
 .industries > div:nth-child(4) {
@@ -408,7 +554,29 @@ button {
   background-color: white;
   z-index: 10;
 }
+@media screen and (max-width: 700px) {
+  .industries {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .industries > div:nth-child(2),
+  .industries > div:nth-child(4) {
+    margin-top: 0rem;
+  }
+}
 
+/* Case Studies */
+@media screen and (max-width: 700px) {
+  .case-studies .explore {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .case-studies .explore .item {
+    margin: 1rem 0;
+    width: 100%;
+  }
+}
 /* About Us */
 .mission-vision > * {
   width: 50%;
@@ -593,10 +761,4 @@ button {
   background-color: white;
   color: #bdbdbd;
   border: 1px solid #bdbdbd;
-}
-
-@media screen and (max-width: 700px) {
-  header {
-    z-index: 5;
-  }
 }
