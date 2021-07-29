@@ -2,6 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/images/logo.svg";
 import styles from "./index.module.css";
+import menu_open from "../../public/images/menu-open.svg";
+import menu_close from "../../public/images/menu-close.svg";
+import arrow_down from "../../public/images/arrow-down.svg";
+import arrow_up from "../../public/images/arrow-up.svg";
 
 export default function Navigation() {
   const industries = [
@@ -23,19 +27,24 @@ export default function Navigation() {
   ];
   return (
     <nav className={styles.nav}>
-      <Link href="/">
-        <Image src={logo} alt="" />
-      </Link>
+      <div className={styles.menu_top}>
+        <Link href="/">
+          <Image src={logo} alt="" />
+        </Link>
+        <div className={styles.menu}>
+          <Image src={menu_open} alt="" />
+        </div>
+      </div>
 
       <ul>
         <li>
           <Link href="/services">
-            <a>SERVICES</a>
+            <div className={styles.link_list}>
+              <a>SERVICES</a>
+              <Image src={arrow_down} alt="" />
+            </div>
           </Link>
           <div className={styles.dropdown}>
-            {/* {services.map((service, i) => (
-              <li key={i}>{service}</li>
-            ))} */}
             <li>
               Big Data And Analytics
               <div className={styles.inner_dropdown}>
@@ -75,7 +84,10 @@ export default function Navigation() {
         </li>
         <li>
           <Link href="/industries">
-            <a>INDUSTRIES</a>
+            <div className={styles.link_list}>
+              <a>INDUSTRIES</a>
+              <Image src={arrow_down} alt="" />
+            </div>
           </Link>
           <div className={styles.dropdown}>
             {industries.map((industry, i) => (
@@ -84,21 +96,33 @@ export default function Navigation() {
           </div>
         </li>
         <li>
-          <a>TECHNOLOGIES</a>
+          <div className={styles.link_list}>
+            <a>TECHNOLOGIES</a>
+            <Image src={arrow_down} alt="" />
+          </div>
         </li>
         <li>
           <Link href="/case-studies">
-            <a>CASE STUDIES</a>
+            <div className={styles.link_list}>
+              <a>CASE STUDIES</a>
+              <Image src={arrow_down} alt="" />
+            </div>
           </Link>
         </li>
         <li>
           <Link href="/about-us">
-            <a>ABOUT US</a>
+            <div className={styles.link_list}>
+              <a>ABOUT US</a>
+              <Image src={arrow_down} alt="" />
+            </div>
           </Link>
         </li>
         <li>
           <Link href="/blog">
-            <a>BLOG</a>
+            <div className={styles.link_list}>
+              <a>BLOG</a>
+              <Image src={arrow_down} alt="" />
+            </div>
           </Link>
         </li>
         <li>

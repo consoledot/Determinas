@@ -1,19 +1,31 @@
 .nav {
   display: flex;
-
+  width: 100%;
   color: #095a88;
   justify-content: space-between;
   height: auto;
   padding: 0 2rem;
   height: 100px;
 }
+.nav .menu_top {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .menu {
+  display: none;
+  background-color: #f15d2d;
+  padding: 0.5rem 1rem;
+}
 .nav ul {
   display: flex;
   list-style: none;
-
   margin: 0;
 }
-
+.nav .link_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .nav ul li {
   font-size: 16px;
   font-weight: 700;
@@ -69,4 +81,49 @@
 }
 .dropdown > li:hover > .inner_dropdown {
   display: block;
+}
+
+@media screen and (max-width: 700px) {
+  .nav {
+    display: block;
+    margin-top: 0;
+    background-color: white;
+    gap: 2rem;
+    width: 100%;
+    padding: 0;
+    z-index: 20;
+    position: absolute;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .nav .menu_top {
+    padding: 0.5rem;
+  }
+  .nav .menu {
+    display: block;
+    /* padding: 0 1rem; */
+  }
+  .nav ul {
+    flex-direction: column;
+    z-index: 1000;
+    background-color: white;
+    color: #2b2b2b;
+    font-size: 16px;
+    padding: 2rem 1rem;
+    width: 100vw;
+    margin: 0;
+  }
+  .nav ul li {
+    padding: 1rem 0;
+  }
+  .nav ul li a {
+    padding: 0;
+  }
+  .contact {
+    background-color: #095a88;
+    padding: 0.5rem !important;
+    display: flex;
+    justify-content: center;
+  }
 }
