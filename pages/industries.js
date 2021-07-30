@@ -12,7 +12,7 @@ import image7 from "../public/images/transportation.svg";
 import image8 from "../public/images/manufacturing.svg";
 import image9 from "../public/images/energy.svg";
 
-export default function Indutsries() {
+export default function Industries() {
   const industries = [
     {
       image: image1,

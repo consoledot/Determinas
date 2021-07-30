@@ -26,9 +26,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav .link_list > * {
+/* .nav .link_list > * {
   display: none;
-}
+} */
 .nav ul li {
   font-size: 16px;
   font-weight: 700;
