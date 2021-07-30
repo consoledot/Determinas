@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/images/logo.svg";
@@ -8,6 +9,7 @@ import arrow_down from "../../public/images/arrow-down.svg";
 import arrow_up from "../../public/images/arrow-up.svg";
 
 export default function Navigation() {
+  const [open, setOpen] = useState(false);
   const industries = [
     "Telecommunications",
     "Education",
@@ -31,12 +33,12 @@ export default function Navigation() {
         <Link href="/">
           <Image src={logo} alt="" />
         </Link>
-        <div className={styles.menu}>
-          <Image src={menu_open} alt="" />
+        <div className={styles.menu} onClick={() => setOpen(!open)}>
+          <Image src={open ? menu_close : menu_open} alt="" />
         </div>
       </div>
 
-      <ul>
+      <ul className={open ? styles.open : styles.close}>
         <li>
           <Link href="/services">
             <div className={styles.link_list}>
@@ -96,33 +98,21 @@ export default function Navigation() {
           </div>
         </li>
         <li>
-          <div className={styles.link_list}>
-            <a>TECHNOLOGIES</a>
-            <Image src={arrow_down} alt="" />
-          </div>
+          <a>TECHNOLOGIES</a>
         </li>
         <li>
           <Link href="/case-studies">
-            <div className={styles.link_list}>
-              <a>CASE STUDIES</a>
-              <Image src={arrow_down} alt="" />
-            </div>
+            <a>CASE STUDIES</a>
           </Link>
         </li>
         <li>
           <Link href="/about-us">
-            <div className={styles.link_list}>
-              <a>ABOUT US</a>
-              <Image src={arrow_down} alt="" />
-            </div>
+            <a>ABOUT US</a>
           </Link>
         </li>
         <li>
           <Link href="/blog">
-            <div className={styles.link_list}>
-              <a>BLOG</a>
-              <Image src={arrow_down} alt="" />
-            </div>
+            <a>BLOG</a>
           </Link>
         </li>
         <li>

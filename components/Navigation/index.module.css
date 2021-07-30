@@ -97,7 +97,6 @@
     z-index: 20;
     position: absolute;
     margin: 0 auto;
-    overflow: hidden;
     height: 10vh;
   }
   .nav .menu_top {
@@ -105,10 +104,12 @@
   }
   .nav .menu {
     display: block;
-    /* padding: 0 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
   }
   .nav ul {
-    display: none;
     flex-direction: column;
     z-index: 1000;
     background-color: white;
@@ -117,7 +118,14 @@
     padding: 2rem 1rem;
     width: 100vw;
     margin: 0;
-    height: 90vh;
+    height: 95vh;
+    z-index: 20;
+  }
+  .nav > ul.close {
+    display: none;
+  }
+  .nav > ul.open {
+    display: flex !important;
   }
   .nav ul li {
     padding: 1rem 0;
