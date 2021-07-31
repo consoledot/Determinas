@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <Navigation />
       <header>
-        <div className="header-text-body">
+        <div className="header-text-body index">
           <div>
             <h1>DIGITAL TRANSFORMATION</h1>
             <p>
@@ -33,11 +33,15 @@ export default function Home() {
             <button>CONTACT US TODAY</button>
           </div>
         </div>
+        <video muted loop className="video" autoPlay>
+          <source src="video.mp4" type="video/mp4" />
+        </video>
       </header>
       <section>
         <div
           style={{
             padding: "1rem",
+            backgroundColor: "white",
           }}
         >
           <h2>DISCOVER</h2>

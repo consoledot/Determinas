@@ -48,11 +48,7 @@ export default function AboutUs() {
           </div>
         </div>
       </header>
-      <section
-        style={{
-          padding: "1rem 3rem",
-        }}
-      >
+      <section className="container-section">
         <div>
           <h2>WHO WE ARE</h2>
           <p>
@@ -166,11 +162,7 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <section
-        style={{
-          padding: " 1rem 3rem",
-        }}
-      >
+      <section className="container-section">
         <h2>INDUSTRY EXPERTISE</h2>
         <Industries />
       </section>
