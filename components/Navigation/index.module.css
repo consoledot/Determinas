@@ -29,11 +29,17 @@
 /* .nav .link_list > * {
   display: none;
 } */
+.image {
+  display: none !important;
+}
 .nav ul li {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   margin: 0;
+}
+.nav ul > li > *:first-child {
+  height: 100%;
 }
 .nav ul li a {
   cursor: pointer;
@@ -132,6 +138,20 @@
   }
   .nav ul li a {
     padding: 0;
+  }
+  .image {
+    display: block !important;
+  }
+  .dropdown {
+    position: relative;
+  }
+  .dropdown li {
+    display: flex;
+    flex-direction: column;
+  }
+  .inner_dropdown {
+    position: relative;
+    left: 0;
   }
   .contact {
     background-color: #095a88;

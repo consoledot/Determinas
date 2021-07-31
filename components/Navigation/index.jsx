@@ -43,7 +43,7 @@ export default function Navigation() {
           <Link href="/services">
             <div className={styles.link_list}>
               <a>SERVICES</a>
-              <Image src={arrow_down} alt="" />
+              <Image src={arrow_down} alt="" className={styles.image} />
             </div>
           </Link>
           <div className={styles.dropdown}>
@@ -88,7 +88,7 @@ export default function Navigation() {
           <Link href="/industries">
             <div className={styles.link_list}>
               <a>INDUSTRIES</a>
-              <Image src={arrow_down} alt="" className="arrow" />
+              <Image src={arrow_down} alt="" className={styles.image} />
             </div>
           </Link>
           <div className={styles.dropdown}>
