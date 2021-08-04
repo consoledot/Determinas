@@ -50,14 +50,26 @@ export default function Navigation() {
             <li>
               Big Data And Analytics
               <div className={styles.inner_dropdown}>
-                <li>Data Governance</li>
-                <li>Data Engineering</li>
-                <li>Business Intelligence & Visualisation</li>
-                <li>Data Science</li>
+                <li>
+                  <Link href="/data-governance">Data Governance</Link>
+                </li>
+                <li>
+                  <Link href="/data-engineering">Data Engineering</Link>
+                </li>
+                <li>
+                  <Link href="/business-inteligence-&-data-visualization">
+                    Business Intelligence & Visualisation
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/data-science">Data Science</Link>
+                </li>
               </div>
             </li>
             <li>
-              Software Product and Innovation
+              <Link href="/software-product-innovation">
+                Software Product and Innovation
+              </Link>
               <div className={styles.inner_dropdown}>
                 <li>End to End Product Engineering</li>
                 <li>Product Design</li>
@@ -68,18 +80,36 @@ export default function Navigation() {
             <li>
               Talent Mobility
               <div className={styles.inner_dropdown}>
-                <li>Talent Fellowship</li>
-                <li>Talent As a Service</li>
+                <li>
+                  <Link href="/talent-fellowship">Talent Fellowship</Link>
+                </li>
+                <li>
+                  <Link href="/talent-as-a-service">Talent As a Service</Link>
+                </li>
                 <li>Talent Outsourcing</li>
               </div>
             </li>
             <li>
               Growth Marketing
               <div className={styles.inner_dropdown}>
-                <li>Market Research</li>
-                <li>Market Intelligence</li>
-                <li>Business Strategy Support</li>
-                <li>Investment Research</li>
+                <li>
+                  <Link href="/market-research">Market Research</Link>
+                </li>
+                <li>
+                  <Link href="/market-intelligence-service">
+                    Market Intelligence
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/business-strategy-support">
+                    Business Strategy Support
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/investment-research-services">
+                    Investment Research
+                  </Link>
+                </li>
               </div>
             </li>
           </div>
