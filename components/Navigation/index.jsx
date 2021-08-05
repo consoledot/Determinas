@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/images/logo.svg";
@@ -7,9 +7,11 @@ import menu_open from "../../public/images/menu-open.svg";
 import menu_close from "../../public/images/menu-close.svg";
 import arrow_down from "../../public/images/arrow-down.svg";
 import arrow_up from "../../public/images/arrow-up.svg";
+import contact_bg from "../../public/images/contact-bg.svg";
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
+  const [addWhiteBg, setAddWhiteBg] = useState(false);
   const industries = [
     "Telecommunications",
     "Education",
@@ -27,8 +29,13 @@ export default function Navigation() {
     "Talent Mobility",
     "Growth Marketing",
   ];
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY > 20 ? setAddWhiteBg(true) : setAddWhiteBg(false);
+    });
+  }, []);
   return (
-    <nav className={styles.nav}>
+    <nav className={addWhiteBg ? `${styles.nav} ${styles.white}` : styles.nav}>
       <div className={styles.menu_top}>
         <Link href="/">
           <Image src={logo} alt="" />
@@ -147,7 +154,14 @@ export default function Navigation() {
         </li>
         <li>
           <Link href="/contact-us">
-            <a className={styles.contact}>CONTACT US</a>
+            <a
+              className={styles.contact}
+              style={{
+                backgroundImage: addWhiteBg && "url('/images/contact-bg.svg')",
+              }}
+            >
+              CONTACT US
+            </a>
           </Link>
         </li>
       </ul>

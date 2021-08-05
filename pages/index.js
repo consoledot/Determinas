@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Industries from "../components/Indutries";
@@ -30,7 +31,9 @@ export default function Home() {
               Harness the power of new, fast, and ever-evolving digital
               technology to solve your business challenges
             </p>
-            <button>CONTACT US TODAY</button>
+            <button>
+              <Link href="/contact-us">CONTACT US TODAY</Link>
+            </button>
           </div>
         </div>
         <video muted loop className="video" autoPlay>

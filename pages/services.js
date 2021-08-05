@@ -21,6 +21,7 @@ export default function Services() {
           backgroundSize: "cover",
         }}
       >
+        <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
             <h1>SERVICES WE OFFER</h1>

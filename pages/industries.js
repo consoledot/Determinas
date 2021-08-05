@@ -75,6 +75,7 @@ export default function Industries() {
           backgroundSize: "cover",
         }}
       >
+        <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
             <h1>INDUSTRIES WE SERVE</h1>

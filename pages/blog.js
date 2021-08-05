@@ -36,6 +36,7 @@ export default function Blog() {
           backgroundSize: "cover",
         }}
       >
+        <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
             <h1>BLOG</h1>

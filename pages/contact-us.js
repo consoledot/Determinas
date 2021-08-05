@@ -19,6 +19,7 @@ export default function ContactUs() {
           backgroundSize: "cover",
         }}
       >
+        <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
             <h1>LET US PARTNER WITH YOU</h1>
@@ -26,7 +27,6 @@ export default function ContactUs() {
               We will work with you to use Data to keep you ahead of your
               competitors by helping you make Data- driven business decisions.
             </p>
-            <button>CONTACT US TODAY</button>
           </div>
         </div>
       </header>

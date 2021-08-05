@@ -24,6 +24,7 @@ export default function MarketResearch() {
           backgroundSize: "cover",
         }}
       >
+        <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
             <h1>GROWTH MARKETING</h1>

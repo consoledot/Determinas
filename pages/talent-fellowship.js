@@ -20,6 +20,7 @@ export default function TAF() {
           backgroundSize: "cover",
         }}
       >
+        <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
             <h1>TALENT MOBILITY</h1>

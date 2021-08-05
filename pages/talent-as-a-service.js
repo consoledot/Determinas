@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import WhatWeOffer from "../components/What we Offer";
 import Industries from "../components/Indutries";
+import TalentPool from "../components/Talent Pool";
 
 export default function TSA() {
   return (
@@ -21,6 +22,7 @@ export default function TSA() {
           backgroundSize: "cover",
         }}
       >
+        <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
             <h1>TALENT MOBILITY</h1>
@@ -68,10 +70,7 @@ export default function TSA() {
           </div>
         </div>
       </section>
-      <section className="talent-pool">
-        <p>NEED TO PUT TOGETHER A TEAM OF TALENTS FOR YOUR NEXT PROJECT?</p>
-        <button>ACCESS OUR TALENT POOL</button>
-      </section>
+      <TalentPool />
       <WhatWeOffer />
 
       <Industries />

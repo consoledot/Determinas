@@ -25,15 +25,16 @@ export default function CaseStudies() {
           backgroundSize: "cover",
         }}
       >
+        <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
-            <h1>SERVICES WE OFFER</h1>
+            <h1>CASE STUDIES</h1>
             <p>
-              Triumph new business milestones as we super-charge your growth
-              with our full-cycle software solutions, innovation and
-              development.
+              We partner with innovative companies like yours at every stage,
+              helping them accelerate their growth and achieve their unique
+              goals. Explore our rich collection of Case studies created by
+              experts at Determinas.
             </p>
-            <button>CONTACT US TODAY</button>
           </div>
         </div>
       </header>

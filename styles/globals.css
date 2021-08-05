@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 html,
 body {
   padding: 0;
@@ -6,6 +7,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   width: 100%;
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }
 body > *:not(#__next) {
   display: none;
@@ -44,10 +46,19 @@ header {
   display: flex;
   align-items: center;
 }
+header .blur-bg {
+  height: 100%;
+  position: absolute;
+  backdrop-filter: blur(20px);
+  width: 500px;
+}
 @media screen and (max-width: 700px) {
   P {
     font-size: 14px !important;
   }
+}
+header .blur-bg {
+  width: 100vw;
 }
 button {
   background-color: #0a5989;
@@ -69,22 +80,28 @@ button {
   backdrop-filter: blur(0px) !important;
 }
 .header-text-body {
-  max-width: 500px;
   padding: 0rem 2rem;
   color: white;
-  backdrop-filter: blur(10px);
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   overflow: hidden;
+  width: 100%;
+}
+.header-text-body div {
+  width: 100%;
+  text-align: center;
+  padding: 0 5rem;
+}
+.header-text-body h1 {
+  font-size: 51px;
 }
 .header-text-body p {
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 32px;
+  line-height: 84px;
   font-weight: 400;
-  max-width: 400px;
 }
 .absolute-section {
   position: relative;
@@ -164,7 +181,7 @@ button {
   padding: 2rem 3rem;
 }
 .section-list .flex > div {
-  max-width: 49%;
+  max-width: 500px;
 }
 @media screen and (max-width: 700px) {
   h2 {
@@ -194,6 +211,13 @@ button {
   .section-stack {
     flex-direction: column;
   }
+  .section-list .flex {
+    flex-direction: column;
+  }
+  .section-list > div,
+  .section-stack > div {
+    padding: 1rem;
+  }
 }
 /* HOME */
 .discover {
@@ -205,7 +229,7 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   color: white;
   /* padding: 15rem 1rem 0rem 1rem; */
-  height: 500px;
+  height: 400px;
 }
 .discover .item {
   border-right: 1px solid white;
@@ -256,13 +280,20 @@ button {
 .focus {
   padding: 1rem 0;
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 .focus div {
   padding: 0.3rem 3rem;
-  box-shadow: 0px 2px 4px rgba(189, 189, 189, 0.25);
-  border: 1px solid rgba(189, 189, 189, 0.3);
+  box-shadow: 0px 2px 30px rgba(189, 189, 189, 0.25);
+  box-sizing: border-box;
+  cursor: pointer;
+  border-bottom: 3px solid white;
+}
+.focus div:hover {
+  border-bottom: 3px solid#508BAF;
+  box-sizing: border-box;
+  transition: all 0.2s ease-out;
 }
 .focus div p {
   font-weight: 500;
@@ -364,7 +395,10 @@ button {
 .talent-pool {
   max-width: 500px;
   margin: 3rem auto;
-  padding: 3rem 4rem;
+  padding: 3rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
   box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
   -webkit-box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
   -moz-box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
@@ -373,7 +407,9 @@ button {
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
-  margin: 2rem 0;
+}
+.talent-pool button {
+  font-weight: 700;
 }
 @media screen and (max-width: 700px) {
   .talent-pool {

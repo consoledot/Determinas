@@ -21,6 +21,7 @@ export default function DataEng() {
           backgroundSize: "cover",
         }}
       >
+        <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
             <h1>BIG DATA AND ANALYTICS</h1>
