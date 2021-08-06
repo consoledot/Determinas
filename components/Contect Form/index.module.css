@@ -5,6 +5,11 @@
   justify-content: center;
   width: 100%;
 }
+.form button {
+  background-color: white;
+  color: #095a88;
+  font-weight: 700;
+}
 .form section {
   max-width: 70rem;
   background-color: #49637e;
@@ -12,6 +17,10 @@
 }
 .form h2 {
   text-align: center;
+}
+.form label {
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .form input,
 .form textarea {
@@ -28,7 +37,7 @@
 .form textarea::placeholder {
   color: #bdbdbd;
 }
-.form div {
+.form section > div {
   display: flex;
   flex-direction: column;
   padding: 1rem;

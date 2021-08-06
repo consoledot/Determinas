@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 html,
 body {
   padding: 0;
@@ -58,7 +59,7 @@ header .blur-bg {
   }
 }
 header .blur-bg {
-  width: 100vw;
+  width: 50vw;
 }
 button {
   background-color: #0a5989;
@@ -102,6 +103,24 @@ button {
   font-size: 32px;
   line-height: 84px;
   font-weight: 400;
+}
+@media screen and (max-width: 700px) {
+  .header-text-body {
+    padding: 0 1.5rem;
+  }
+  .header-text-body div {
+    padding: 0;
+    text-align: left;
+  }
+  .header-text-body h1 {
+    font-size: 32px;
+  }
+  .header-text-body p {
+    line-height: 30px;
+  }
+  .header-text-body button {
+    margin-top: 4rem;
+  }
 }
 .absolute-section {
   position: relative;
@@ -369,16 +388,22 @@ button {
   width: 100%;
 }
 .features .text {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  padding-top: 0;
 }
 .features .text h5 {
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
+  margin: 0;
 }
 .features .text p {
-  padding-left: 1em;
+  font-size: 14px;
+  text-align: right;
+  color: #095a88;
+  font-weight: 500;
 }
 @media screen and (max-width: 700px) {
   .features {

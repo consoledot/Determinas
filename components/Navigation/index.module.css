@@ -64,6 +64,9 @@
 .contact {
   color: white;
 }
+.contact:hover {
+  color: white;
+}
 .dropdown {
   position: absolute;
   background-color: white;

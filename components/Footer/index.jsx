@@ -6,11 +6,16 @@ import mail from "../../public/images/mail.svg";
 import phone from "../../public/images/phone.svg";
 import address from "../../public/images/address.svg";
 
-export default function Footer() {
+export default function Footer({ contact }) {
   return (
     <footer className={styles.footer}>
-      <ContactForm />
-      <div className={styles.footer_container}>
+      <ContactForm contact={contact} />
+      <div
+        className={styles.footer_container}
+        style={{
+          paddingTop: contact && "53rem",
+        }}
+      >
         <section className={styles.footer_section}>
           <div>
             <p>SERVICES</p>
@@ -81,7 +86,7 @@ export default function Footer() {
             </ul>
             <p>BLOG</p>
           </div>
-          <div>
+          <div className={styles.contact}>
             <p>CONTACT US</p>
             <ul>
               <li>
@@ -100,22 +105,12 @@ export default function Footer() {
             </ul>
           </div>
         </section>
-        <p>SEE THE LATEST ON OUR BLOG</p>
-        <section className={styles.footer_section}>
-          <div>
-            <h5>Model Fitting and Generalization</h5>
-            <p>Read more...</p>
-          </div>
-          <div>
-            <h5>What is Artificial Intelligence?</h5>
-            <p>Read more...</p>
-          </div>
-          <div>
-            <h5>Artificial Intelligence in the Health Care Sector</h5>
-            <p>Read more...</p>
-          </div>
-        </section>
+        <p></p>
       </div>
+      <section className={styles.footer_footer}>
+        <p>2021. Determinas. All rights reserved.</p>
+        <p>Privacy Policy | Cookies Policy</p>
+      </section>
     </footer>
   );
 }

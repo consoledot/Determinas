@@ -30,17 +30,17 @@ export default function ContactUs() {
           </div>
         </div>
       </header>
-      <div
-        style={{
-          padding: "1rem",
-        }}
-      >
-        <p>
+      <div className="container-section">
+        <p
+          style={{
+            textAlign: "center",
+          }}
+        >
           Why don’t you get in touch with us today, let us discuss how we can
           help you reach your business goals.
         </p>
       </div>
-      <Footer />
+      <Footer contact />
     </div>
   );
 }
