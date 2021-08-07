@@ -5,6 +5,9 @@
   justify-content: center;
   width: 100%;
 }
+.form p {
+  font-weight: 400;
+}
 .form button {
   background-color: white;
   color: #095a88;
@@ -47,6 +50,28 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.upload {
+  position: relative;
+}
+.upload > div {
+  border: 1px dashed #ffffff;
+  padding: 2rem;
+  color: #bdbdbd;
+}
+.upload span {
+  padding: 0 1rem;
+}
+.upload img {
+  margin: 0 0.5rem;
+}
+.upload input[type="file"] {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 700px) {

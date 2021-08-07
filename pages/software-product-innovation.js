@@ -27,6 +27,7 @@ export default function SoftwareInnovation() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/ services</span>
             <h1>SOFTWARE PRODUCT INNOVATION</h1>
           </div>
         </div>

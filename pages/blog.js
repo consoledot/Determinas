@@ -39,6 +39,7 @@ export default function Blog() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/</span>
             <h1>BLOG</h1>
             <p>
               We love to share our insights on the latest in digital

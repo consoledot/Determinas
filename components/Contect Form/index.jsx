@@ -1,4 +1,6 @@
 import styles from "./index.module.css";
+import Image from "next/image";
+import zip from "../../public/images/zip.svg";
 
 export default function ContactForm({ contact }) {
   return (
@@ -43,17 +45,27 @@ export default function ContactForm({ contact }) {
               name="message"
               placeholder="Briefly describe your project..."
             ></textarea>
+            <div className={styles.upload}>
+              <input type="file" />
+              <div>
+                <Image src={zip} alt="" />
+                <span>Attach your document file</span>
+              </div>
+            </div>
           </div>
         )}
 
         <p>
-          This site is protected by reCAPTCHA and the Google Privacy Policy and
-          Terms of Service apply.
+          This site is protected by reCAPTCHA and the Google
+          <b>Privacy Policy</b> and
+          <b>Terms of Service</b> apply.
         </p>
         <div className={styles.bottom}>
           <span>
             <input type="checkbox" name="accept" />
-            <span>I accept the Privacy Policy</span>
+            <span>
+              I accept the <b>Privacy Policy</b>
+            </span>
           </span>
           <button>SUBMIT FORM</button>
         </div>

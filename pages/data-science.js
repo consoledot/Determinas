@@ -24,6 +24,7 @@ export default function DATASCI() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/ services</span>
             <h1>BIG DATA AND ANALYTICS</h1>
           </div>
         </div>

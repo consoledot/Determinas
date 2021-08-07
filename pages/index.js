@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <Navigation />
       <header>
-        <div className="blur-bg"></div>
+        {/* <div className="blur-bg"></div> */}
         <div className="header-text-body index">
           <div>
             <h1>DIGITAL TRANSFORMATION</h1>

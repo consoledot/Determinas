@@ -27,6 +27,7 @@ export default function MarketResearch() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/ services</span>
             <h1>GROWTH MARKETING</h1>
           </div>
         </div>

@@ -6,7 +6,7 @@ import Navigation from "../components/Navigation";
 import TalentPool from "../components/Talent Pool";
 import image1 from "../public/images/who-we-are.png";
 import image2 from "../public/images/how-we-work.png";
-import arrow_right from "../public/images/arrow-right.svg";
+import arrow_right from "../public/images/arrow-right-blue.svg";
 import ceo from "../public/images/ceo.png";
 import coo from "../public/images/coo.png";
 import partner from "../public/images/partner.png";
@@ -39,6 +39,7 @@ export default function AboutUs() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/</span>
             <h1>ABOUT US</h1>
             <p>
               At Determinas, we use advanced technologies in Artificial

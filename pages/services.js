@@ -24,6 +24,7 @@ export default function Services() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/</span>
             <h1>SERVICES WE OFFER</h1>
             <p>
               Triumph new business milestones as we super-charge your growth

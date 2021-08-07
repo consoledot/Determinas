@@ -24,6 +24,7 @@ export default function BSS() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/ services</span>
             <h1>GROWTH MARKETING</h1>
           </div>
         </div>

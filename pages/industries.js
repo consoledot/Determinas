@@ -78,6 +78,7 @@ export default function Industries() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/</span>
             <h1>INDUSTRIES WE SERVE</h1>
             <p>
               We combine technology with industry expertise. Innovate your niche

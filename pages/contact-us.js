@@ -22,6 +22,7 @@ export default function ContactUs() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/</span>
             <h1>LET US PARTNER WITH YOU</h1>
             <p>
               We will work with you to use Data to keep you ahead of your

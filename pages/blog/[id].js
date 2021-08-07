@@ -29,6 +29,7 @@ export default function BlogPage() {
       >
         <div className="header-text-body">
           <div>
+            <span>Home/ blog</span>
             <h1>MODEL FITTING AND GENERALIZATION</h1>
             <p>
               We love to share our insights on the latest in digital

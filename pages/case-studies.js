@@ -28,6 +28,7 @@ export default function CaseStudies() {
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
+            <span>Home/</span>
             <h1>CASE STUDIES</h1>
             <p>
               We partner with innovative companies like yours at every stage,
