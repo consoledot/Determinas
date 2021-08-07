@@ -56,9 +56,8 @@ export default function ContactForm({ contact }) {
         )}
 
         <p>
-          This site is protected by reCAPTCHA and the Google
-          <b>Privacy Policy</b> and
-          <b>Terms of Service</b> apply.
+          This site is protected by reCAPTCHA and the Google{" "}
+          <b>Privacy Policy</b> and <b>Terms of Service</b> apply.
         </p>
         <div className={styles.bottom}>
           <span>

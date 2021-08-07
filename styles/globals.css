@@ -47,6 +47,9 @@ header {
   display: flex;
   align-items: center;
 }
+section {
+  padding: 3rem 0;
+}
 header .blur-bg {
   height: 100%;
   position: absolute;
@@ -59,7 +62,7 @@ header .blur-bg {
   }
 }
 header .blur-bg {
-  width: 50vw;
+  width: 40vw;
 }
 button {
   background-color: #0a5989;
@@ -78,7 +81,12 @@ button {
   background-size: cover;
 }
 .index {
-  backdrop-filter: blur(0px) !important;
+  backdrop-filter: blur(10px) !important;
+  background: linear-gradient(
+    138.02deg,
+    rgba(255, 255, 255, 0.42) 0%,
+    rgba(255, 255, 255, 0.07) 100%
+  );
 }
 .header-text-body {
   padding: 0rem 2rem;
@@ -109,6 +117,11 @@ button {
   font-size: 18px;
   font-weight: 700;
 }
+.header-text-body button {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 1.5rem 3rem;
+}
 @media screen and (max-width: 700px) {
   .header-text-body {
     padding: 0 1.5rem;
@@ -125,6 +138,9 @@ button {
   }
   .header-text-body button {
     margin-top: 4rem;
+  }
+  header .blur-bg {
+    width: 50vw;
   }
 }
 .absolute-section {
@@ -202,7 +218,7 @@ button {
   gap: 1rem;
 }
 .container-section {
-  padding: 2rem 3rem;
+  padding: 4rem 3rem;
 }
 .section-list .flex > div {
   max-width: 500px;
@@ -349,9 +365,7 @@ button {
   padding: 1.5rem 3rem;
   bottom: -2rem;
   background-color: white;
-  box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
-  -webkit-box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
-  -moz-box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
+  box-shadow: 0px 4px 30px rgba(189, 189, 189, 0.25);
 }
 .explore .item h5 {
   font-size: 18px;
@@ -423,9 +437,9 @@ button {
   }
 }
 .talent-pool {
-  max-width: 500px;
-  margin: 3rem auto;
-  padding: 3rem;
+  max-width: 450px;
+  margin: 4rem auto;
+  padding: 2rem;
   display: flex;
   gap: 1rem;
   flex-direction: column;
@@ -437,13 +451,20 @@ button {
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
+  text-align: center;
 }
+
 .talent-pool button {
   font-weight: 700;
+  width: 65%;
+  margin: 0 auto;
 }
 @media screen and (max-width: 700px) {
   .talent-pool {
     padding: 2rem;
+  }
+  .talent-pool button {
+    width: 90%;
   }
 }
 /* Service */
@@ -515,9 +536,9 @@ button {
   gap: 1rem;
 }
 .pagination span {
-  padding: 1.5rem 2rem;
+  padding: 0.5rem 1rem;
   border: 1px solid rgba(189, 189, 189, 0.7);
-  font-size: 23px;
+
   cursor: pointer;
   font-weight: 700;
 }
@@ -769,6 +790,9 @@ button {
   display: flex;
   flex-direction: column;
   gap: 6rem;
+}
+.leadership .explore .item .text {
+  box-shadow: none !important;
 }
 .top,
 .bottom,

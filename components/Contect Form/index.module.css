@@ -13,6 +13,11 @@
   color: #095a88;
   font-weight: 700;
 }
+.form button:hover {
+  background-color: #095a88;
+  color: white;
+  transition: all 0.2s ease-out;
+}
 .form section {
   max-width: 70rem;
   background-color: #49637e;
