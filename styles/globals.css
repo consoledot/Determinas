@@ -63,6 +63,7 @@ header .blur-bg {
 }
 header .blur-bg {
   width: 40vw;
+  height: 100vh;
 }
 button {
   background-color: #0a5989;
