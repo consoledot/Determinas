@@ -126,14 +126,16 @@ export default function AboutUs() {
 
         <div className="who-we-are">
           <div>
-            <h4>WE ARE:</h4>
+            <p>EXCELLENCE</p>
             <ul>
+              <h4>WE ARE:</h4>
               <li>Rigorous</li>
               <li>Efficient</li>
               <li>Diligent</li>
             </ul>
           </div>
           <div>
+            <p>INNOVATION</p>
             <ul>
               <li>Inspired</li>
               <li>Creative</li>
@@ -142,6 +144,7 @@ export default function AboutUs() {
             </ul>
           </div>
           <div>
+            <p>EMPATHY</p>
             <ul>
               <li>Awareness</li>
               <li>Understanding</li>
@@ -149,12 +152,14 @@ export default function AboutUs() {
             </ul>
           </div>
           <div>
+            <p>INTEGRITY</p>
             <ul>
               <li>Authentic</li>
               <li>Transparent</li>
             </ul>
           </div>
           <div>
+            <p>COMMUNITY BUILDING</p>
             <ul>
               <li>Dilligence</li>
               <li>Leadership</li>
@@ -194,7 +199,7 @@ export default function AboutUs() {
               <Image src={coo} alt="" />
               <div className="text">
                 <h5>Ugwumba Desire Chukwudi</h5>
-                <p>Ugwumba Desire Chukwudi</p>
+                <p>COO/VP Of Products</p>
               </div>
             </div>
           </div>

@@ -329,10 +329,10 @@ button {
   box-shadow: 0px 2px 30px rgba(189, 189, 189, 0.25);
   box-sizing: border-box;
   cursor: pointer;
-  border-bottom: 3px solid white;
+  border-bottom: 10px solid white;
 }
 .focus div:hover {
-  border-bottom: 3px solid#508BAF;
+  border-bottom: 10px solid#508BAF;
   box-sizing: border-box;
   transition: all 0.2s ease-out;
 }
@@ -471,10 +471,10 @@ button {
 /* Service */
 .services {
   display: grid;
-  margin: 7rem 3rem;
+  margin: 10rem 3rem;
   padding: 3rem;
   position: relative;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 0.5rem;
   justify-content: space-between;
   box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
@@ -486,6 +486,9 @@ button {
   top: -5rem;
   padding: 0.5rem;
   box-shadow: 2px 2px 4px rgba(189, 189, 189, 0.25);
+}
+.service .img:hover {
+  border-bottom: 1px solid red;
 }
 .services .item {
   position: relative;
@@ -757,6 +760,7 @@ button {
 .who-we-are p {
   font-size: "Poppins";
   font-size: 16px;
+  display: none;
 }
 .core-values {
   display: flex;
@@ -776,7 +780,7 @@ button {
 .core-values .focus > div {
   background-color: white;
   border: 1px solid rgba(189, 189, 189, 0.3);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 4px rgba(189, 189, 189, 0.25);
   padding: 1.5rem 2rem;
 }
 .leadership {
@@ -834,17 +838,63 @@ button {
     margin: 0 auto;
   }
   .core-values .focus {
-    /* display: none; */
+    display: none;
     flex-direction: column;
   }
+  .core-values .outer-focus {
+    top: -5rem;
+  }
   .who-we-are {
-    padding-left: 10rem;
+    background-color: white;
+    padding: 1rem;
+    gap: 1rem;
   }
   .who-we-are div {
     border-right: none;
-    border: 1px solid red;
-    float: right;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    /* display: flex; */
+  }
+  .who-we-are ul {
+    width: 100%;
+  }
+  .who-we-are p {
     display: block;
+    background-color: white;
+    border: 1px solid rgba(189, 189, 189, 0.3);
+    box-shadow: 0px 2px 4px rgba(189, 189, 189, 0.25);
+    padding: 1rem 3rem;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .who-we-are ul {
+    background-color: #53728f;
+  }
+
+  .how-we-work {
+    flex-direction: column;
+  }
+  .how-we-work > *:first-child {
+    display: none !important;
+  }
+  .how-we-work > * {
+    width: 100%;
+  }
+  .how-we-work > div {
+    top: 0;
+    z-index: 3;
+    right: 0;
+  }
+  .how-we-work button {
+    width: 100%;
+  }
+  .top,
+  .bottom {
+    display: none;
   }
 }
 /* Single Blog Page */

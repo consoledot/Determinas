@@ -5,6 +5,12 @@ import ContactForm from "../Contect Form";
 import mail from "../../public/images/mail.svg";
 import phone from "../../public/images/phone.svg";
 import address from "../../public/images/address.svg";
+import copy from "../../public/images/copy.svg";
+import facebook from "../../public/images/facebook.svg";
+import instagram from "../../public/images/instagram.svg";
+import youtube from "../../public/images/youtube.svg";
+import twitter from "../../public/images/twitter.svg";
+import linkedin from "../../public/images/linkedin.svg";
 
 export default function Footer({ contact }) {
   return (
@@ -103,12 +109,26 @@ export default function Footer({ contact }) {
                 Lagos.
               </li>
             </ul>
+            <section className={styles.socials}>
+              <h4>FOLLOW US</h4>
+              <div>
+                <Image src={instagram} alt="" />
+                <Image src={facebook} alt="" />
+                <Image src={linkedin} alt="" />
+                <Image src={youtube} alt="" />
+                <Image src={twitter} alt="" />
+              </div>
+            </section>
           </div>
         </section>
         <p></p>
       </div>
+
       <section className={styles.footer_footer}>
-        <p>2021. Determinas. All rights reserved.</p>
+        <p>
+          <Image src={copy} alt="" />
+          2021. Determinas. All rights reserved.
+        </p>
         <p>Privacy Policy | Cookies Policy</p>
       </section>
     </footer>

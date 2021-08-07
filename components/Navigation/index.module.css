@@ -157,6 +157,12 @@
   .nav ul li a {
     padding: 0;
   }
+  .nav ul li:hover > .dropdown {
+    display: none;
+  }
+  .nav ul li .link_list > div:hover > .dropdown {
+    display: block;
+  }
   .image {
     display: block !important;
   }

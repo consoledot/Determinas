@@ -66,6 +66,7 @@
 }
 .upload span {
   padding: 0 1rem;
+  cursor: pointer;
 }
 .upload img {
   margin: 0 0.5rem;
