@@ -625,9 +625,10 @@ button {
   display: flex;
 }
 @media screen and (max-width: 700px) {
-  /* .blog {
-    margin: 0 auto;
-  } */
+  .blog {
+    width: 100% !important;
+    overflow: visible;
+  }
   .blog-search .input-div:first-child {
     display: none;
   }
@@ -645,6 +646,16 @@ button {
     flex-direction: column;
     overflow: hidden;
     width: 100%;
+  }
+  .blog .features .text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-top: 0;
+    width: 85%;
+  }
+  .blog .features .text h5 {
+    font-size: 15px;
   }
   .choose-us,
   .mission-vision {

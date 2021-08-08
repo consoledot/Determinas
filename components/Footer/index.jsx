@@ -27,14 +27,22 @@ export default function Footer({ contact }) {
             <p>SERVICES</p>
             <ul>
               <li className={styles.first}>Big Data & Analytics</li>
-              <li>Data Governance</li>
-              <li>Data Engineering</li>
+              <li>
+                {" "}
+                <Link href="/data-governance">Data Governance</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href="/data-engineering">Data Engineering</Link>
+              </li>
               <li>
                 <Link href="/business-inteligence-&-data-visualization">
                   Business Intelligence & Data Visualisation
                 </Link>
               </li>
-              <li>Data science</li>
+              <li>
+                <Link href="/data-science">Data Science</Link>
+              </li>
             </ul>
             <ul>
               <li className={styles.first}>Software Product & Innovation</li>
@@ -45,14 +53,24 @@ export default function Footer({ contact }) {
             </ul>
             <ul>
               <li className={styles.first}>GROWTH MARKETING</li>
-              <li>Market Research</li>
-              <li>Market Intelligence Service</li>
+              <li>
+                <Link href="/market-research">Market Research</Link>
+              </li>
+              <li>
+                <Link href="/market-intelligence-service">
+                  Market Intelligence
+                </Link>
+              </li>
               <li>
                 <Link href="/business-strategy-support">
                   Business Strategy Support
                 </Link>
               </li>
-              <li>Investment Research Services</li>
+              <li>
+                <Link href="/investment-research-services">
+                  Investment Research
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
@@ -87,13 +105,19 @@ export default function Footer({ contact }) {
             <p>CASE STUDIES</p>
             <p>COMPANY</p>
             <ul>
-              <li>About us</li>
+              <li>
+                <Link href="/about-us">About us</Link>
+              </li>
               <li> Careers</li>
             </ul>
-            <p>BLOG</p>
+            <p>
+              <Link href="/blog">BLOG</Link>
+            </p>
           </div>
           <div className={styles.contact}>
-            <p>CONTACT US</p>
+            <p>
+              <Link href="/contact-us">CONTACT US</Link>
+            </p>
             <ul>
               <li>
                 <Image src={phone} alt="" />

@@ -112,6 +112,9 @@
   .footer_footer p {
     margin: 0;
   }
+  .footer li {
+    font-size: 14px !important;
+  }
   .socials {
     position: relative;
     margin-top: 6rem;
