@@ -143,6 +143,7 @@ button {
   }
   .index {
     background: none;
+    backdrop-filter: blur(2px) !important;
   }
   header .blur-bg {
     width: 50vw;
