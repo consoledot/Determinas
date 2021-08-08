@@ -120,13 +120,12 @@
     display: none;
   }
   .contact {
-    left: -1rem;
     position: relative;
   }
   .contact ul {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: -1.5rem;
+    left: -1rem;
   }
 }
