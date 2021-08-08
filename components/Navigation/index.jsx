@@ -29,6 +29,16 @@ export default function Navigation() {
     "Talent Mobility",
     "Growth Marketing",
   ];
+  const technologies = [
+    "AWS",
+    "Microsoft",
+    "Python",
+    "Javascript",
+    "Figma",
+    "Java",
+    "Hadoop",
+    "Spark",
+  ];
   useEffect(() => {
     window.addEventListener("scroll", () => {
       window.scrollY > 20 ? setAddWhiteBg(true) : setAddWhiteBg(false);
@@ -135,7 +145,15 @@ export default function Navigation() {
           </div>
         </li>
         <li>
-          <a>TECHNOLOGIES</a>
+          <div className={styles.link_list}>
+            <a>TECHNOLOGIES</a>
+            <Image src={arrow_down} alt="" className={styles.image} />
+          </div>
+          <div className={styles.dropdown}>
+            {technologies.map((tech, i) => (
+              <li key={i}>{tech}</li>
+            ))}
+          </div>
         </li>
         <li>
           <Link href="/case-studies">
