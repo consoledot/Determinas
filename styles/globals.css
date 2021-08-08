@@ -139,6 +139,10 @@ button {
   }
   .header-text-body button {
     margin-top: 4rem;
+    padding: 1rem 1.5rem;
+  }
+  .index {
+    background: none;
   }
   header .blur-bg {
     width: 50vw;
