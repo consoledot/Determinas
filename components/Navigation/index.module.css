@@ -144,7 +144,8 @@
     margin: 0;
     height: 100vh;
     z-index: 40;
-    overflow: hidden;
+    overflow: scroll;
+    margin-bottom: 1rem;
   }
   body + .nav ul {
     overflow: hidden;

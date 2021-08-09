@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import WhatWeOffer from "../components/What we Offer";
@@ -31,7 +32,10 @@ export default function Services() {
               with our full-cycle software solutions, innovation and
               development.
             </p>
-            <button>CONTACT US TODAY</button>
+            <button>
+              {" "}
+              <Link href="/contact-us">CONTACT US TODAY</Link>
+            </button>
           </div>
         </div>
       </header>
