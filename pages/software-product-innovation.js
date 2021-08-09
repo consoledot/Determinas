@@ -91,6 +91,10 @@ export default function SoftwareInnovation() {
           </div>
         </div>
       </section>
+      <WhatWeOffer />
+      <TalentPool />
+      <Industries />
+      <Footer />
     </div>
   );
 }
