@@ -395,10 +395,18 @@ button {
     gap: 1rem;
   }
   .explore .item {
-    width: 400px !important;
+    width: 93vw !important;
   }
   .explore .item .text {
     box-shadow: none;
+    padding: 0.8rem 0;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    padding-top: 0;
+  }
+  .explore .item .text h5 {
+    font-size: 16px;
   }
 }
 .features {
@@ -439,7 +447,15 @@ button {
     gap: 1rem;
   }
   .features > div {
-    width: 400px !important;
+    width: 93vw !important;
+  }
+  .features .text {
+    box-shadow: none;
+    padding: 0.8rem 0;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    padding-top: 0;
   }
 }
 .talent-pool {
