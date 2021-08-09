@@ -45,7 +45,11 @@ export default function Footer({ contact }) {
               </li>
             </ul>
             <ul>
-              <li className={styles.first}>Software Product & Innovation</li>
+              <li className={styles.first}>
+                <Link href="/software-product-innovation">
+                  Software Product & Innovation
+                </Link>
+              </li>
               <li>End to End Product Engineering</li>
               <li>Product Design</li>
               <li>Product Development</li>

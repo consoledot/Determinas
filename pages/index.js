@@ -77,7 +77,12 @@ export default function Home() {
             </ul>
           </div>
           <div className="item">
-            <h4> SOFTWARE PRODUCT INNOVATION</h4>
+            <h4>
+              {" "}
+              <Link href="/software-product-innovation">
+                SOFTWARE PRODUCT INNOVATION
+              </Link>
+            </h4>
             <ul>
               <li>End to End Product Engineering</li>
               <li>Product Design</li>
