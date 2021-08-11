@@ -89,7 +89,11 @@ export default function Industries() {
       </header>
       <section className="container-section">
         <div>
-          <p>
+          <p
+            style={{
+              paddingBottom: "3.5rem",
+            }}
+          >
             Our experience with industries helps us understand the market
             specifics and create software customized to a specific niche. Our
             goal is to help businesses exceed customers’ expectations to become
