@@ -80,16 +80,36 @@ export default function Footer({ contact }) {
           <div>
             <p>INDUSTRIES</p>
             <ul>
-              <li>Telecommunications</li>
-              <li> Education</li>
-              <li>Healthcare</li>
-              <li>Commerce </li>
-              <li>Agriculture</li>
-              <li>Government</li>
-              <li>Enterprise Resource Planning</li>
-              <li>Banking and Finance</li>
-              <li>Manufacturing and Energy</li>
-              <li>Transportation and Logistics</li>
+              <li>
+                <Link href="/industries">Telecommunications</Link>
+              </li>
+              <li>
+                <Link href="/industries">Education</Link>
+              </li>
+              <li>
+                <Link href="/industries">Healthcare</Link>
+              </li>
+              <li>
+                <Link href="/industries">Commerce</Link>{" "}
+              </li>
+              <li>
+                <Link href="/industries">Agriculture</Link>
+              </li>
+              <li>
+                <Link href="/industries">Government</Link>
+              </li>
+              <li>
+                <Link href="/industries">Enterprise Resource Planning</Link>
+              </li>
+              <li>
+                <Link href="/industries">Banking and Finance</Link>
+              </li>
+              <li>
+                <Link href="/industries">Manufacturing and Energy</Link>
+              </li>
+              <li>
+                <Link href="/industries">Transportation and Logistics</Link>
+              </li>
             </ul>
           </div>
           <div>

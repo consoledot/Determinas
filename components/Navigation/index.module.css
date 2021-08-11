@@ -31,7 +31,8 @@
   list-style: none;
   margin: 0;
 }
-.nav .link_list {
+.nav .link_list,
+.nav .industry {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,6 +96,10 @@
 }
 .nav ul li:hover > .dropdown {
   display: block;
+}
+.inner_dropdown {
+  display: flex;
+  justify-content: space-between;
 }
 .dropdown .inner_dropdown {
   position: absolute;

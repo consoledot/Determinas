@@ -58,7 +58,7 @@ export default function Navigation() {
       <ul className={open ? styles.open : styles.close}>
         <li>
           <Link href="/services">
-            <div className={styles.link_list}>
+            <div className={`${styles.link_list} ${styles.industry}`}>
               <a>SERVICES</a>
               <Image src={arrow_down} alt="" className={styles.image} />
             </div>
