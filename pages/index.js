@@ -44,7 +44,7 @@ export default function Home() {
       <section>
         <div
           style={{
-            padding: "2.5rem 1rem",
+            padding: "4rem 1rem",
             backgroundColor: "white",
           }}
         >

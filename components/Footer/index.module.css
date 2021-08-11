@@ -102,6 +102,9 @@
 .socials > div {
   display: flex;
   align-items: center;
+  border: 1px solid red;
+  gap: -180px;
+  position: relative;
 }
 @media screen and (max-width: 700px) {
   .footer_footer {

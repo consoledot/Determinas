@@ -140,7 +140,10 @@ export default function Navigation() {
           </Link>
           <div className={styles.dropdown}>
             {industries.map((industry, i) => (
-              <li key={i}>{industry}</li>
+              <li key={i}>
+                {" "}
+                <Link href="/industries">{industry}</Link>
+              </li>
             ))}
           </div>
         </li>
