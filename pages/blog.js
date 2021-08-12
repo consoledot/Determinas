@@ -38,6 +38,9 @@ export default function Blog() {
       >
         <div className="blur-bg"></div>
         <div className="header-text-body">
+          <div className="input-search">
+            <input placeholder="Search for a Topic..." />
+          </div>
           <div>
             <span>Home/</span>
             <h1>BLOG</h1>

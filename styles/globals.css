@@ -587,6 +587,21 @@ button:hover {
   margin: 0 auto;
   justify-content: space-between;
 }
+.input-search {
+  position: absolute;
+  top: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+.input-search input {
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
 .blog-search .input-div {
   display: flex;
 }
@@ -651,6 +666,9 @@ button:hover {
   .blog {
     width: 100% !important;
     overflow: visible;
+  }
+  .input-search {
+    display: flex;
   }
   .blog-search .input-div:first-child {
     display: none;
