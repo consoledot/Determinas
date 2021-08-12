@@ -31,7 +31,8 @@
   font-weight: 700;
 }
 .form input,
-.form textarea {
+.form textarea,
+.form select {
   border: 1px solid white;
   padding: 2rem;
   background-color: #49637e;
