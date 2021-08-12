@@ -327,7 +327,7 @@ button:hover {
   }
 }
 .focus {
-  padding: 1rem 0;
+  padding: 1rem;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
@@ -496,18 +496,23 @@ button:hover {
 .services {
   display: grid;
   margin: 10rem 3rem;
-  padding: 3rem;
-  position: relative;
+  /* padding: 3rem; */
+  /* position: relative; */
+  /* border: 1px solid red; */
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-gap: 0.5rem;
+  /* grid-gap: 0.6rem; */
   justify-content: space-between;
   box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
   -webkit-box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
   -moz-box-shadow: 0px 1px 6px 3px rgba(243, 243, 243, 0.78);
 }
+.services > div {
+  position: relative;
+  /* border: 1px solid red; */
+}
 .services .service-img {
   position: absolute;
-  top: -5rem;
+  top: -4rem;
   padding: 0.5rem;
   box-shadow: 2px 2px 4px rgba(189, 189, 189, 0.25);
 }
@@ -516,6 +521,7 @@ button:hover {
 }
 .services .item {
   position: relative;
+  padding-top: 3rem;
 }
 .services .item h4 {
   font-size: 32px;
@@ -591,7 +597,6 @@ button:hover {
   position: absolute;
   top: 7rem;
   width: 100%;
-  display: flex;
   justify-content: center;
   display: none;
 }
@@ -648,7 +653,7 @@ button:hover {
   margin-top: 3rem;
 }
 .explore-topics {
-  display: flex;
+  display: none;
   box-shadow: 0px 2px 4px rgba(189, 189, 189, 0.25);
   width: 70vw;
   margin: 1.5rem auto;
@@ -679,6 +684,9 @@ button:hover {
   }
   .blog-search .input-div:first-child {
     display: none;
+  }
+  .explore-topics {
+    display: flex;
   }
   .topics {
     flex-wrap: wrap;

@@ -88,10 +88,26 @@ export default function Navigation() {
                 Software Product and Innovation
               </Link>
               <div className={styles.inner_dropdown}>
-                <li>End to End Product Engineering</li>
-                <li>Product Design</li>
-                <li>Product Development</li>
-                <li>App Restructuring</li>
+                <li>
+                  <Link href="/software-product-innovation">
+                    End to End Product Engineering
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/software-product-innovation">
+                    Product Design
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/software-product-innovation">
+                    Product Development
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/software-product-innovation">
+                    App Restructuring
+                  </Link>
+                </li>
               </div>
             </li>
             <li>
