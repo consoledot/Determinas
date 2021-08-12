@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import search from "../public/images/search.svg";
 import arrow_right from "../public/images/arrow-right.svg";
+import arrow_up from "../public/images/arrow-up.svg";
 import feature1 from "../public/images/feature-1.png";
 import feature2 from "../public/images/feature-2.png";
 import feature3 from "../public/images/feature-3.png";
@@ -70,6 +71,10 @@ export default function Blog() {
       </section>
       <section className="container-section blog">
         <div>
+          <div className="explore-topics">
+            <h3>EXPLORE OUR TOPIC CATEGORIES</h3>
+            <Image src={arrow_up} alt="" />
+          </div>
           <h2>TOPICS</h2>
           <div className="topics">
             {topics.map((topic, i) => (

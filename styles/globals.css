@@ -647,6 +647,13 @@ button:hover {
 .blog .features {
   margin-top: 3rem;
 }
+.explore-topics {
+  display: flex;
+  box-shadow: 0px 2px 4px rgba(189, 189, 189, 0.25);
+  width: 70vw;
+  margin: 1.5rem auto;
+  padding: 0.5rem 1.5rem;
+}
 .choose-us {
   display: flex;
   justify-content: center;
@@ -677,6 +684,7 @@ button:hover {
     flex-wrap: wrap;
     gap: 0.5rem;
     justify-content: center;
+    display: none;
   }
   .topics p {
     padding: 0.5rem;
