@@ -37,6 +37,7 @@ export default function Blog() {
           backgroundSize: "cover",
         }}
       >
+        <div className="overlay"></div>
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div className="input-search">

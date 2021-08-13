@@ -19,6 +19,7 @@ export default function ContactUs() {
           backgroundSize: "cover",
         }}
       >
+        <div className="overlay"></div>
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>

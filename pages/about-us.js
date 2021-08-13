@@ -36,6 +36,7 @@ export default function AboutUs() {
           backgroundSize: "cover",
         }}
       >
+        <div className="overlay"></div>
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
@@ -63,7 +64,7 @@ export default function AboutUs() {
         <div className="choose-us">
           <Image src={image1} alt="" />
           <div>
-            <h3>WHY YOU SHOULD CHOOSE DETERMINAS ?</h3>
+            <h1>WHY YOU SHOULD CHOOSE DETERMINAS ?</h1>
             <p>
               In everything we do, Determinas strives for operational excellence
               and exceptional perfomance. We believe in Speed and Accurate
@@ -75,7 +76,7 @@ export default function AboutUs() {
         </div>
         <div className="mission-vision">
           <div>
-            <h3>OUR MISSION</h3>
+            <h2>OUR MISSION</h2>
             <ul>
               <li>
                 To help organisations implement data-driven digital startegies
@@ -93,7 +94,7 @@ export default function AboutUs() {
             </ul>
           </div>
           <div>
-            <h3>OUR VISION</h3>
+            <h2>OUR VISION</h2>
             <p>Bridging the gap between businesses and AI</p>
           </div>
         </div>
@@ -116,7 +117,7 @@ export default function AboutUs() {
       </section>
       <section className="core-values">
         <div className="outer-focus">
-          <h2>OUR CORE VALUES</h2>
+          <h1>OUR CORE VALUES</h1>
           <div className="focus">
             {coreValues.map((value, i) => (
               <div key={i}>{value}</div>

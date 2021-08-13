@@ -21,6 +21,7 @@ export default function DataGov() {
           backgroundSize: "cover",
         }}
       >
+        <div className="overlay"></div>
         <div className="blur-bg"></div>
         <div className="header-text-body">
           <div>
