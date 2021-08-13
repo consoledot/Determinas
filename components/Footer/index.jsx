@@ -19,7 +19,7 @@ export default function Footer({ contact }) {
       <div
         className={styles.footer_container}
         style={{
-          paddingTop: contact && "60rem",
+          paddingTop: contact && "70rem",
         }}
       >
         <section className={styles.footer_section}>
