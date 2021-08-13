@@ -50,10 +50,24 @@ export default function Footer({ contact }) {
                   Software Product & Innovation
                 </Link>
               </li>
-              <li>End to End Product Engineering</li>
-              <li>Product Design</li>
-              <li>Product Development</li>
-              <li>APP Restructuring</li>
+              <li>
+                <Link href="/software-product-innovation">
+                  End to End Product Engineering
+                </Link>
+              </li>
+              <li>
+                <Link href="/software-product-innovation">Product Design</Link>
+              </li>
+              <li>
+                <Link href="/software-product-innovation">
+                  Product Development
+                </Link>
+              </li>
+              <li>
+                <Link href="/software-product-innovation">
+                  APP Restructuring
+                </Link>
+              </li>
             </ul>
             <ul>
               <li className={styles.first}>GROWTH MARKETING</li>

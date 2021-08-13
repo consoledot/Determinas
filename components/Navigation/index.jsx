@@ -119,7 +119,9 @@ export default function Navigation() {
                 <li>
                   <Link href="/talent-as-a-service">Talent As a Service</Link>
                 </li>
-                <li>Talent Outsourcing</li>
+                <li>
+                  <Link href="/talent-as-a-service">Talent Outsourcing</Link>
+                </li>
               </div>
             </li>
             <li>

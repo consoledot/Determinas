@@ -224,7 +224,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 4rem;
 }
 .container-section {
   padding: 4rem 3rem;
@@ -262,6 +262,7 @@ button:hover {
   }
   .section-list .flex {
     flex-direction: column;
+    gap: 1rem;
   }
   .section-list > div,
   .section-stack > div {
