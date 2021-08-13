@@ -6,7 +6,7 @@
   width: 100%;
 }
 .form p {
-  font-weight: 400;
+  font-weight: 300 !important;
 }
 .form button {
   background-color: white;
